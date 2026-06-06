@@ -1,16 +1,18 @@
 ---
+import Head from '../components/Head.astro';
 import '../styles/global.css';
 
 const { frontmatter } = Astro.props;
 const title = frontmatter.title ?? 'Story';
+const author = frontmatter.author ?? 'Tim Graboski';
+const description =
+  frontmatter.description ?? `${title} — a short story by ${author}.`;
 const subtitle = new Date(frontmatter.publishDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
 ---
 
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title}</title>
+    <Head title={title} description={description} />
   </head>
   <body>
     <main>
