@@ -1,19 +1,63 @@
 ---
 import '../styles/global.css';
+
+interface StoryFrontmatter {
+  title: string;
+  publishDate: string;
+  author?: string;
+}
+
+const storyModules = import.meta.glob<{ frontmatter: StoryFrontmatter }>(
+  './stories/*.md',
+  { eager: true }
+);
+
+const stories = Object.entries(storyModules)
+  .map(([filepath, { frontmatter }]) => {
+    const slug = filepath.replace('./stories/', '').replace(/\.md$/, '');
+    return {
+      title: frontmatter.title,
+      publishDate: frontmatter.publishDate,
+      href: `/stories/${slug}/`,
+    };
+  })
+  .sort(
+    (a, b) =>
+      new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime()
+  );
+
+function formatDate(date: Date): string {
+  return date.toLocaleDateString('en-US', {
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric'
+  });
+}
 ---
+
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>The Title</title>
+    <title>Stories</title>
   </head>
   <body>
     <main>
-      <article class="story">
-        <h1>The Title</h1>
-        <h2>A subtitle</h2>
-        <p>Story content here…</p>
-      </article>
+      <h1 class="page-title">Stories</h1>
+      <ul class="story-list">
+        {
+          stories.map((story) => (
+            <li class="story-list-item">
+              <a class="story-list-link" href={story.href}>
+                {story.title}
+              </a>
+              <time class="story-list-date" datetime={story.publishDate}>
+                {formatDate(new Date(story.publishDate))}
+              </time>
+            </li>
+          ))
+        }
+      </ul>
     </main>
   </body>
 </html>
