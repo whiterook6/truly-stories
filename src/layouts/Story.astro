@@ -1,0 +1,24 @@
+---
+import '../styles/global.css';
+
+const { frontmatter } = Astro.props;
+const title = frontmatter.title ?? 'Story';
+const subtitle = new Date(frontmatter.publishDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <main>
+      <article class="story">
+        <h1 class="story-title">{title}</h1>
+        {subtitle && <h2 class="story-subtitle">{subtitle}</h2>}
+        <slot />
+      </article>
+    </main>
+  </body>
+</html>
