@@ -9,7 +9,7 @@ tags:
   genre: [science fiction, speculative fiction, literary fiction]
 ---
 
-My teenaged daughter Seffy made that noise every teenager makes when she simply can’t even for another moment. We were wedged in together on a transport ship, heading for a planet called Beetle-3, and Seffy would rather have been anywhere else. If I was honest, so would I. I’d known about this trip for over a year, but it had always felt so abstract. Now everything was accelerating.
+My teenaged daughter Seffy made that noise all teenagers makes when they simply can’t even for another moment. We were wedged in together on a transport ship, heading for a planet called Beetle-3, and Seffy would rather have been anywhere else. If I was honest, so would I. I’d known about this trip for over a year, but it had always felt so abstract. Now everything was accelerating.
 
 “Mom\!”
 
