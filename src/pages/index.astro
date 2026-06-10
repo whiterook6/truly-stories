@@ -25,7 +25,7 @@ const stories = getStories('desc');
                   class="story-list-date"
                   datetime={story.publishDate}
                 >
-                  {formatDate(new Date(story.publishDate))}
+                  {formatDate(story.publishDate)}
                 </time>
                 <span class="story-list-stats">
                   {story.wordCount.toLocaleString()} words

@@ -9,7 +9,7 @@ const title = frontmatter.title ?? 'Story';
 const author = frontmatter.author ?? 'Tim Graboski';
 const description =
   frontmatter.description ?? `${title} — a short story by ${author}.`;
-const subtitle = formatDate(new Date(frontmatter.publishDate));
+const subtitle = formatDate(frontmatter.publishDate);
 ---
 
 <html lang="en">

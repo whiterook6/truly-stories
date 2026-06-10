@@ -1,3 +1,5 @@
+import { getPublishDateTime, toDateString } from './date';
+
 export interface StoryTags {
   tone?: string[];
   themes?: string[];
@@ -17,7 +19,7 @@ export interface Story {
 
 interface StoryFrontmatter {
   title: string;
-  publishDate: string;
+  publishDate: string | Date;
   author?: string;
   tags?: StoryTags;
   downloadUrl?: string;
@@ -73,7 +75,7 @@ export function getStories(sort: 'asc' | 'desc' = 'desc'): Story[] {
     return {
       slug,
       title: frontmatter.title,
-      publishDate: frontmatter.publishDate,
+      publishDate: toDateString(frontmatter.publishDate),
       href: `/stories/${slug}/`,
       tagLine: formatTags(frontmatter.tags),
       wordCount,
@@ -83,8 +85,7 @@ export function getStories(sort: 'asc' | 'desc' = 'desc'): Story[] {
   });
 
   return stories.sort((a, b) => {
-    const diff =
-      new Date(a.publishDate).getTime() - new Date(b.publishDate).getTime();
+    const diff = getPublishDateTime(a.publishDate) - getPublishDateTime(b.publishDate);
     return sort === 'asc' ? diff : -diff;
   });
 }
