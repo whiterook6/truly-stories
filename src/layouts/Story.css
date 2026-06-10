@@ -1,0 +1,32 @@
+.story {
+  font-family: var(--font-story-body);
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin-block: 6pt;
+}
+
+.story-title,
+.story-subtitle {
+  font-family: var(--font-story-title);
+  line-height: 1.3;
+}
+
+.story h1,
+.story h2 {
+  font-family: var(--font-story-title);
+  line-height: 1.3;
+}
+
+.story-title,
+.story h1 {
+  font-size: clamp(1.75rem, 4vw, 2.25rem);
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.story-subtitle,
+.story h2 {
+  font-size: clamp(1.125rem, 2.5vw, 1.375rem);
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}

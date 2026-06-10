@@ -1,5 +1,6 @@
 ---
 import { getStoryNeighbors } from '../utils/stories';
+import './StoryFooter.css';
 
 const currentPath = Astro.props.currentPath as string;
 const { previous, next } = getStoryNeighbors(currentPath);

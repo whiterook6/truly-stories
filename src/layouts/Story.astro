@@ -3,6 +3,7 @@ import Head from '../components/Head.astro';
 import StoryFooter from '../components/StoryFooter.astro';
 import { formatDate } from '../utils/date';
 import '../styles/global.css';
+import './Story.css';
 
 const { frontmatter } = Astro.props;
 const title = frontmatter.title ?? 'Story';
