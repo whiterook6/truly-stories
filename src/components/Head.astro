@@ -1,0 +1,22 @@
+---
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props as Props;
+---
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content={description} />
+  <title>{title}</title>
+  <link
+    rel="preload"
+    href="/fonts/merriweather-400-latin.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
+  <slot />
+</head>
