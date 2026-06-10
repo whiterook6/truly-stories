@@ -4,6 +4,7 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import { formatDate } from '../utils/date';
 import { getStories } from '../utils/stories';
 import '../styles/global.css';
+import './index.css';
 
 const stories = getStories('desc');
 ---
@@ -21,27 +22,20 @@ const stories = getStories('desc');
                 {story.title}
               </a>
               <div class="story-list-details">
-                <time
-                  class="story-list-date"
-                  datetime={story.publishDate}
-                >
+                <time class="story-list-date" datetime={story.publishDate}>
                   {formatDate(story.publishDate)}
                 </time>
                 <span class="story-list-stats">
                   {story.wordCount.toLocaleString()} words
                 </span>
-                <span class="story-list-stats">
-                  {story.readingTime}
-                </span>
+                <span class="story-list-stats">{story.readingTime}</span>
                 {story.downloadUrl && (
                   <a class="story-list-download" href={story.downloadUrl}>
                     Download
                   </a>
                 )}
               </div>
-              {story.tagLine && (
-                <p class="story-list-tags">{story.tagLine}</p>
-              )}
+              {story.tagLine && <p class="story-list-tags">{story.tagLine}</p>}
             </li>
           ))
         }
