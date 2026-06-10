@@ -3,10 +3,7 @@ layout: ../../layouts/Story.astro
 title: "Significant Figures"
 publishDate: 2026-03-06
 author: "Tim Graboski"
-tags:
-  tone: [tense, paranoid, unsettling, darkly humorous]
-  themes: [surveillance, betrayal, bureaucracy, cold war, trust]
-  genre: [espionage, thriller, speculative fiction, literary fiction]
+tags: ["cold war", surveillance, betrayal, "science fiction"]
 ---
 
 They had sent him to the Siberia office.

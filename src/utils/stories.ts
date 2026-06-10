@@ -1,27 +1,21 @@
 import { getPublishDateTime, toDateString } from './date';
 
-export interface StoryTags {
-  tone?: string[];
-  themes?: string[];
-  genre?: string[];
-}
-
 export interface Story {
   slug: string;
   title: string;
   publishDate: string;
   href: string;
-  tagLine: string;
+  tagLine?: string;
   wordCount: number;
   readingTime: string;
   downloadUrl?: string;
 }
 
-interface StoryFrontmatter {
+export interface StoryFrontmatter {
   title: string;
   publishDate: string | Date;
   author?: string;
-  tags?: StoryTags;
+  tags?: string[];
   downloadUrl?: string;
 }
 
@@ -59,13 +53,6 @@ function formatReadingTime(words: number): string {
   return minutes === 1 ? '1 min read' : `${minutes} min read`;
 }
 
-function formatTags(tags?: StoryTags): string {
-  if (!tags) return '';
-  const items = [...(tags.genre ?? []), ...(tags.themes ?? []), ...(tags.tone ?? [])];
-  items.sort(() => Math.random() - 0.5);
-  return items.slice(0, 4).join(', ');
-}
-
 export function getStories(sort: 'asc' | 'desc' = 'desc'): Story[] {
   const stories = Object.entries(storyModules).map(([filepath, { frontmatter }]) => {
     const slug = filepath.replace('../pages/stories/', '').replace(/\.md$/, '');
@@ -77,7 +64,7 @@ export function getStories(sort: 'asc' | 'desc' = 'desc'): Story[] {
       title: frontmatter.title,
       publishDate: toDateString(frontmatter.publishDate),
       href: `/stories/${slug}/`,
-      tagLine: formatTags(frontmatter.tags),
+      tagLine: frontmatter.tags ? frontmatter.tags.join(', ').toLowerCase() : undefined,
       wordCount,
       readingTime: formatReadingTime(wordCount),
       downloadUrl: frontmatter.downloadUrl,

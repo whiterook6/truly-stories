@@ -3,10 +3,7 @@ layout: ../../layouts/Story.astro
 title: "The Caretaker"
 publishDate: 2026-02-05
 author: "Tim Graboski"
-tags:
-  tone: [melancholic, unsettling, bittersweet, darkly humorous]
-  themes: [ai, consciousness, sacrifice, identity, duty, isolation]
-  genre: [science fiction, speculative fiction, literary fiction]
+tags: [ai, identity, "science fiction", duty]
 ---
 
 

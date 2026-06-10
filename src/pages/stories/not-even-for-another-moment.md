@@ -3,10 +3,7 @@ layout: ../../layouts/Story.astro
 title: "Not Even for Another Moment"
 publishDate: 2026-05-07
 author: "Tim Graboski"
-tags:
-  tone: [poignant, bittersweet, emotional, hopeful]
-  themes: [trauma, grief, motherhood, diaspora, memory]
-  genre: [science fiction, speculative fiction, literary fiction]
+tags: [motherhood, grief, "science fiction", bittersweet]
 ---
 
 My teenaged daughter Seffy made that noise all teenagers make when they simply can’t even for another moment. We were wedged in together on a transport ship, heading for a planet called Beetle-3, and Seffy would rather have been anywhere else. If I was honest, so would I. I’d known about this trip for over a year, but it had always felt so abstract. Now everything was accelerating.

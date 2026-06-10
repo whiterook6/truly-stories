@@ -3,10 +3,7 @@ layout: ../../layouts/Story.astro
 title: "The Lost and Sound"
 publishDate: 2025-11-11
 author: "Tim Graboski"
-tags:
-  tone: [bittersweet, melancholic, hopeful, gentle]
-  themes: [loss, memory, music, loneliness, everyday life]
-  genre: [magical realism, fantasy, literary fiction]
+tags: [bittersweet, memory, music, "urban fantasy"]
 ---
 
 Every sound you’ve ever lost ends up somewhere.
