@@ -5,8 +5,8 @@ publishDate: 2026-06-04
 author: "Tim Graboski"
 tags:
   tone: [funny, absurd, darkly humorous, whimsical]
-  themes: [FOMO, gardening, consumerism, hubris, pandemic]
-  genre: [comedy, horror, speculative fiction, contemporary fiction]
+  themes: [gardening, consumerism, hubris, pandemic]
+  genre: [comedy, horror, contemporary fiction]
 ---
 
 I bought one of those mail-order greenhouses—you know, the kind that arrives flatpacked like IKEA furniture? See, it was the height of the pandemic and I had just joined a gardening club. Now I didn’t know the first thing about gardening—my few heirloom tomato planters in the backyard had only ever produced disappointment—but I did know a thing or two about FOMO. When my friends started posting their starters on social media I knew I had to catch up, and wouldn’t you know it—Ali Express, that giant Chinese e-commerce site, had a sale on greenhouses.
