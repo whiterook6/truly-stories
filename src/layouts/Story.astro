@@ -2,14 +2,14 @@
 import Head from '../components/Head.astro';
 import StoryFooter from '../components/StoryFooter.astro';
 import { formatDate } from '../utils/date';
+import type { StoryFrontmatter } from '../utils/stories';
 import '../styles/global.css';
 import './Story.css';
 
-const { frontmatter } = Astro.props;
+const { frontmatter } = Astro.props as { frontmatter: StoryFrontmatter };
 const title = frontmatter.title ?? 'Story';
 const author = frontmatter.author ?? 'Tim Graboski';
-const description =
-  frontmatter.description ?? `${title} — a short story by ${author}.`;
+const description = `${title} — a short story by ${author}.`;
 const subtitle = formatDate(frontmatter.publishDate);
 ---
 

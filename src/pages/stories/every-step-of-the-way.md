@@ -3,10 +3,7 @@ layout: ../../layouts/Story.astro
 title: "Every Step of the Way"
 publishDate: 2026-04-02
 author: "Tim Graboski"
-tags:
-  tone: [whimsical, adventurous, warm, wry]
-  themes: [wandering, loneliness, fate, mentorship, adventure]
-  genre: [fantasy, speculative fiction, literary fiction]
+tags: [whimsical, adventure, wandering, fantasy]
 ---
 
 Boz was already wide awake when he heard barking outside. No one else in the crowded Winnebago stirred. It wasn’t the loud howling of some shadowy beast, but instead the tiny bark from a tiny nuisance that nonetheless would’ve woken Boz anyway.
