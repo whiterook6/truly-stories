@@ -1,3 +1,9 @@
+---
+layout: ../../layouts/AuthorsNotes.astro
+title: "Not Even for Another Moment"
+storySlug: not-even-for-another-moment
+---
+
 ## Premise
 
 Some time ago—let’s say, thirty five years ago—a planet was attacked by aliens. Now, thirty five years later, on a human world thirty five light years away, plans are underway for a celebration of life, as many of the survivors will make the pilgrimage to watch their planet get destroyed through powerful telescopes.

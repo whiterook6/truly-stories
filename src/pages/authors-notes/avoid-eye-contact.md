@@ -1,4 +1,8 @@
-# Greenhouse Envy
+---
+layout: ../../layouts/AuthorsNotes.astro
+title: "Avoid Eye Contact"
+storySlug: avoid-eye-contact
+---
 
 I bought one of those mail-order greenhouses—the kind that arrive flatpacked all the way from China? All of my friends were hard into gardening those days and Temu had a deal so, I figured, what’s the worst that could happen? You’d think it would be receiving a crate full of shattered glass panes. Or discovering that the pictures were exaggerated and it was, like, a foot tall?
 

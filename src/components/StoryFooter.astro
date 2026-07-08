@@ -12,7 +12,7 @@ const authorsNotesHref = getAuthorsNotesHref(pathToSlug(currentPath));
     {
       previous ? (
         <a class="story-footer-btn" href={previous.href}>
-          ← Previous
+          ← { previous.title }
         </a>
       ) : (
         <span class="story-footer-btn is-disabled" aria-hidden="true">
@@ -23,7 +23,7 @@ const authorsNotesHref = getAuthorsNotesHref(pathToSlug(currentPath));
     {
       next ? (
         <a class="story-footer-btn" href={next.href}>
-          Next →
+          { next.title } →
         </a>
       ) : (
         <span class="story-footer-btn is-disabled" aria-hidden="true">

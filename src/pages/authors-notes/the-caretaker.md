@@ -1,3 +1,9 @@
+---
+layout: ../../layouts/AuthorsNotes.astro
+title: "The Caretaker"
+storySlug: the-caretaker
+---
+
 ## Brainstorming
 
 * It will never experience these thoughts at this fidelity again.  

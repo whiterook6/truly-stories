@@ -1,0 +1,38 @@
+---
+import Head from '../components/Head.astro';
+import { getStoryBySlug } from '../utils/stories';
+import '../styles/global.css';
+import './Story.css';
+import './AuthorsNotes.css';
+
+interface AuthorsNotesFrontmatter {
+  title?: string;
+  storySlug?: string;
+}
+
+const { frontmatter } = Astro.props as { frontmatter: AuthorsNotesFrontmatter };
+const notesSlug =
+  Astro.url.pathname.match(/\/authors-notes\/([^/]+)\/?$/)?.[1] ?? '';
+const storySlug = frontmatter.storySlug ?? notesSlug;
+const story = getStoryBySlug(storySlug);
+const title = frontmatter.title ?? story?.title ?? "Author's Notes";
+const storyHref = `/stories/${storySlug}/`;
+const pageTitle = `${title} — Author's Notes`;
+const description = `Author's notes for ${title}.`;
+---
+
+<html lang="en">
+  <Head title={pageTitle} description={description} />
+  <body>
+    <main>
+      <article class="story authors-notes">
+        <h1 class="story-title">{title}</h1>
+        <h2 class="story-subtitle authors-notes-label">Author's Notes</h2>
+        <slot />
+        <footer class="authors-notes-footer">
+          <a class="authors-notes-link" href={storyHref}>Back to Story</a>
+        </footer>
+      </article>
+    </main>
+  </body>
+</html>

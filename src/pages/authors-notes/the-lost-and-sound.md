@@ -1,4 +1,8 @@
-# The Lost and Sound
+---
+layout: ../../layouts/AuthorsNotes.astro
+title: "The Lost and Sound"
+storySlug: the-lost-and-sound
+---
 
 The janitor at a museum discovers that the lost and found box doesn’t hold items, but sounds. Each sound represents a memory that someone has forgotten.
 
