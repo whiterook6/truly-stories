@@ -15,7 +15,7 @@ const authorsNotesHref = getAuthorsNotesHref(pathToSlug(currentPath));
           ← { previous.title }
         </a>
       ) : (
-        <span class="story-footer-btn is-disabled" aria-hidden="true">
+        <span class="story-footer-btn is-disabled" aria-disabled="true">
           ← Previous
         </span>
       )
@@ -26,7 +26,7 @@ const authorsNotesHref = getAuthorsNotesHref(pathToSlug(currentPath));
           { next.title } →
         </a>
       ) : (
-        <span class="story-footer-btn is-disabled" aria-hidden="true">
+        <span class="story-footer-btn is-disabled" aria-disabled="true">
           Next →
         </span>
       )
