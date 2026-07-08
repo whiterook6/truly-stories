@@ -77,9 +77,16 @@ export function getStories(sort: 'asc' | 'desc' = 'desc'): Story[] {
   });
 }
 
-function pathToSlug(path: string): string {
+const authorsNotesModules = import.meta.glob('../pages/authorsNotes/*.md');
+
+export function pathToSlug(path: string): string {
   const match = path.match(/\/stories\/([^/]+)\/?$/);
   return match?.[1] ?? '';
+}
+
+export function getAuthorsNotesHref(storySlug: string): string | null {
+  const filepath = `../pages/authorsNotes/${storySlug}.md`;
+  return filepath in authorsNotesModules ? `/authorsNotes/${storySlug}/` : null;
 }
 
 export function getStoryNeighbors(currentPath: string): {

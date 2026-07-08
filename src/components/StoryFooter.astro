@@ -1,32 +1,46 @@
 ---
-import { getStoryNeighbors } from '../utils/stories';
+import { getAuthorsNotesHref, getStoryNeighbors, pathToSlug } from '../utils/stories';
 import './StoryFooter.css';
 
 const currentPath = Astro.props.currentPath as string;
 const { previous, next } = getStoryNeighbors(currentPath);
+const authorsNotesHref = getAuthorsNotesHref(pathToSlug(currentPath));
 ---
 
 <nav class="story-footer" aria-label="Story navigation">
-  <div class="story-footer-item story-footer-prev">
+  <div class="story-footer-nav">
     {
-      previous && (
-        <a class="story-footer-link" href={previous.href}>
-          ← {previous.title}
+      previous ? (
+        <a class="story-footer-btn" href={previous.href}>
+          ← Previous
         </a>
+      ) : (
+        <span class="story-footer-btn is-disabled" aria-hidden="true">
+          ← Previous
+        </span>
+      )
+    }
+    {
+      next ? (
+        <a class="story-footer-btn" href={next.href}>
+          Next →
+        </a>
+      ) : (
+        <span class="story-footer-btn is-disabled" aria-hidden="true">
+          Next →
+        </span>
       )
     }
   </div>
-  <div class="story-footer-item story-footer-home">
-    <a class="story-footer-link" href="/">
-      Back to Stories
-    </a>
-  </div>
-  <div class="story-footer-item story-footer-next">
+  <div class="story-footer-links">
+    <a class="story-footer-text-link" href="/">Back to Stories</a>
     {
-      next && (
-        <a class="story-footer-link" href={next.href}>
-          {next.title} →
+      authorsNotesHref ? (
+        <a class="story-footer-text-link" href={authorsNotesHref}>
+          Author's Notes
         </a>
+      ) : (
+        <span class="story-footer-text-link-placeholder" aria-hidden="true" />
       )
     }
   </div>
