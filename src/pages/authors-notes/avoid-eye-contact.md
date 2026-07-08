@@ -14,7 +14,7 @@ When it finally arrived, the crate didn’t contain a mountain of glass shards. 
 
 1. Narrator and his friends pick up gardening as a pandemic hobby. Immediately his feeds are full of sprouts and harvests. His plants are sad and spoiled. In one of the photos there’s a greenhouse in the background.  
 2. Narrator orders a greenhouse from China. Flat packed like Ikea. All his friends are into greenhousing.  
-3. But because it’s coming from china, it’s late. Like, a season too late. It’s august and he’s only setting it up.  
+3. But because it’s shipping across the ocean, it’s late. Like, a season too late. It’s august and he’s only setting it up.  
 4. As an apology for the delay, the shipping company ships a tiny glass vial of a glowing yellow rock for “warmth and cozy”  
 5. The plants nearest the yellow rock don’t grow at all  
 6. The plants furthest from the yellow rock grow normally for a first timer, which means only a little  

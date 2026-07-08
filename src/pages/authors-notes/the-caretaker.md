@@ -145,7 +145,7 @@ You don’t remember thinking that.
 
 ### Thoughts
 
-* I think this starts well but quickly exceeds its word budget in favor of ascorbic with and murderbot Asperger's feelings  
+* I think this starts well but quickly exceeds its word budget in favor of ascorbic wit and murderbot attitudes  
 * Not nearly the trajectory I was hoping for  
 * What am I hoping for?  
   * Emotion  
