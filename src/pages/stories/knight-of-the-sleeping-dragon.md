@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Story.astro
+layout: "@/layouts/story/Story.astro"
 title: "Knight of the Sleeping Dragon"
 publishDate: 2026-07-09
 author: "Tim Graboski"

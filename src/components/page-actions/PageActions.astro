@@ -1,0 +1,58 @@
+---
+import './PageActions.css';
+
+const {
+  showBackButton,
+  onClickDownload,
+  onClickShare,
+} = Astro.props as Partial<{
+  showBackButton: boolean;
+  onClickDownload: string;
+  onClickShare: string;
+}>;
+
+---
+<div class="page-actions" aria-label="Story actions">
+  {showBackButton && (
+    <a class="page-action-link" href="/">
+      <span class="page-action-icon" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="lucide lucide-house-icon lucide-house">
+          <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+          <path
+            d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+        </svg>
+      </span>
+      <span class="page-action-label">Back to Stories</span>
+    </a>
+  )}
+  {onClickDownload && (
+    <button type="button" class="page-action-btn" aria-label="Download" onclick={onClickDownload}>
+      <span class="page-action-icon" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="lucide lucide-download-icon lucide-download">
+          <path d="M12 15V3" />
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+          <path d="m7 10 5 5 5-5" />
+        </svg>
+      </span>
+    </button>
+  )}
+  {onClickShare && (
+    <button type="button" class="page-action-btn" aria-label="Share" onclick={onClickShare}>
+      <span class="page-action-icon" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="lucide lucide-share2-icon lucide-share-2">
+          <circle cx="18" cy="5" r="3" />
+          <circle cx="6" cy="12" r="3" />
+          <circle cx="18" cy="19" r="3" />
+          <line x1="8.59" x2="15.42" y1="13.51" y2="17.49" />
+          <line x1="15.41" x2="8.59" y1="6.51" y2="10.49" />
+        </svg>
+      </span>
+    </button>
+  )}
+</div>

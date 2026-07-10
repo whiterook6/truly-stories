@@ -1,0 +1,35 @@
+---
+import Head from '@/components/head/Head.astro';
+import PageActions from "@/components/page-actions/PageActions.astro";
+import StoryNavigation from "@/components/story-navigation/StoryNavigation.astro";
+import "@/styles/global.css";
+import { formatDate } from "@/utils/date";
+import { getStoryNeighbors, type StoryFrontmatter } from "@/utils/stories";
+import "./Story.css";
+
+const { frontmatter } = Astro.props as { frontmatter: StoryFrontmatter };
+const title = frontmatter.title ?? "Story";
+const author = frontmatter.author ?? "Tim Graboski";
+const description = `${title} — a short story by ${author}.`;
+const subtitle = formatDate(frontmatter.publishDate);
+
+const currentPath = Astro.url.pathname;
+const { previous, next } = getStoryNeighbors(currentPath);
+---
+
+<html lang="en">
+  <Head title={title} description={description}>
+    <meta name="author" content={author} />
+  </Head>
+  <body>
+    <main>
+      <article class="story">
+        <h1 class="story-title">{title}</h1>
+        {subtitle && <h2 class="story-subtitle">{subtitle}</h2>}
+        <slot />
+        <StoryNavigation previous={previous} next={next} />
+        <PageActions showBackButton={true} />
+      </article>
+    </main>
+  </body>
+</html>

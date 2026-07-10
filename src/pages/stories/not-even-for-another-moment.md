@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Story.astro
+layout: "@/layouts/story/Story.astro"
 title: "Not Even for Another Moment"
 publishDate: 2026-05-07
 author: "Tim Graboski"

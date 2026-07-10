@@ -1,11 +1,10 @@
 ---
-layout: ../../layouts/Story.astro
+layout: "@/layouts/story/Story.astro"
 title: "The Caretaker"
 publishDate: 2026-02-05
 author: "Tim Graboski"
 tags: [ai, identity, "science fiction", duty]
 ---
-
 
 You are Steward, the heroic Artificial Intelligence and the pilot of a spaceship filled to bursting with popsicles—sorry, human colonists. The voyage will take centuries, so they're all frozen, leaving you responsible for making the difficult decisions as you encounter the mysteries and hazards of deep space.
 

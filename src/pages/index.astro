@@ -1,9 +1,9 @@
 ---
-import Head from '../components/Head.astro';
-import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
-import { formatDate } from '../utils/date';
-import { getStories } from '../utils/stories';
-import '../styles/global.css';
+import Head from '@/components/head/Head.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '@/consts';
+import { formatDate } from '@/utils/date';
+import { getStories } from '@/utils/stories';
+import '@/styles/global.css';
 import './index.css';
 
 const stories = getStories('desc');
@@ -19,7 +19,13 @@ const stories = getStories('desc');
           stories.map((story) => (
             <li class="story-list-item">
               <a class="story-list-link" href={story.href}>
-                {story.title}
+                <span>{story.title}</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="lucide lucide-arrow-right-icon lucide-arrow-right">
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
               </a>
               <div class="story-list-details">
                 <time class="story-list-date" datetime={story.publishDate}>

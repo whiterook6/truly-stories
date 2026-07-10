@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Story.astro
+layout: "@/layouts/story/Story.astro"
 title: "The Lost and Sound"
 publishDate: 2025-11-11
 author: "Tim Graboski"

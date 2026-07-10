@@ -17,10 +17,6 @@
   flex-direction: column;
   gap: 0.25rem;
   padding-block: 1rem;
-  border-bottom: 1px solid #e0e0dc;
-}
-
-.story-list-item:first-child {
   border-top: 1px solid #e0e0dc;
 }
 
@@ -29,10 +25,18 @@
   font-size: 1.25rem;
   color: #333;
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .story-list-link:hover {
   text-decoration: underline;
+}
+
+.story-list-link svg {
+  width: 1.25rem;
+  height: 1.25rem;
 }
 
 .story-list-tags,
@@ -58,19 +62,4 @@
   content: "·";
   margin-right: 0.5rem;
   color: #aaa;
-}
-
-.story-list-download {
-  color: #666;
-  text-decoration: none;
-}
-
-.story-list-download:hover {
-  text-decoration: underline;
-}
-
-.story-list-download--placeholder {
-  color: #999;
-  font-style: italic;
-  pointer-events: none;
 }

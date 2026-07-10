@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Story.astro
+layout: "@/layouts/story/Story.astro"
 title: "Avoid Eye Contact"
 publishDate: 2026-06-04
 author: "Tim Graboski"
