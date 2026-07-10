@@ -12,7 +12,7 @@ Deep in the Great Smoky Mountains, near the border between Tennessee and North C
 
 One day, at the last gas station and the last turn off before the Tail of the Dragon, a young lad named Phillip was leaning against his bike, refilling its tank, when he heard the distinctive rumbling of a late-80’s Indian Scout. He watched an old lady with cherry-colored hair drive up the road, blow past the signs and the barricade, and disappear around the first bend.
 
-Tourists ignored the warnings now and then. Most turned back before too long. Some never made it back at all. This rider looked like she should have been the same: a sad old nobody on a battered motorcycle trying to resurrect a little of her youth
+Tourists ignored the warnings now and then. Most turned back before too long. Some never made it back at all. This rider looked like she should have been the same: a sad old nobody on a battered motorcycle trying to resurrect a little of her youth.
 
 But as Phillip peeled out of the gas station to follow, he realized she was different. She wore the leather of a true biker. She drove like a lunatic. And she had strapped to her back a greatsword: the kind used to slay a dragon.
 
