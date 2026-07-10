@@ -6,7 +6,7 @@ author: "Tim Graboski"
 tags: [mythical, "modern fantasy", "mountain road", motorcycles]
 ---
 
-Deep in the Great Smoky Mountains, near the border between Tennessee and North Carolina, there was a stretch of US Route 129 known to the locals as the Tail of the Dragon. It was the deadliest road in America: not only because it packed over 300 blind corners into eleven miles, but because it belonged to a dangerous biker gang called the Knights of Appalachia.
+Deep in the Great Smoky Mountains, near the border between Tennessee and North Carolina, there was a stretch of US Route 129 known to the locals as the Tail of the Dragon. It was the deadliest road in America: not only because it packed over three hundred blind corners into eleven miles, but because it belonged to a dangerous biker gang called the Knights of Appalachia.
 
 \---
 
