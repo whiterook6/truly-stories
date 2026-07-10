@@ -13,7 +13,8 @@ const stories = getStories('desc');
   <Head title={SITE_TITLE} description={SITE_DESCRIPTION} />
   <body>
     <main>
-      <h1 class="page-title">Stories</h1>
+      <h1 class="page-title">{SITE_TITLE}</h1>
+      <h2 class="page-subtitle">by Tim Graboski</h2>
       <ul class="story-list">
         {
           stories.map((story) => (
