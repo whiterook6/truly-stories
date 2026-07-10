@@ -6,7 +6,7 @@ author: "Tim Graboski"
 tags: [whimsical, horror, pandemic, "atomic gardening"]
 ---
 
-I bought one of those mail-order greenhouses—you know, the kind that arrives flatpacked like IKEA furniture? See, it was the height of the pandemic and I had just joined a gardening club. Now I didn’t know the first thing about gardening—my few heirloom tomato planters in the backyard had only ever produced disappointment—but I did know a thing or two about FOMO. When my friends started posting their starters on social media I knew I had to catch up, and wouldn’t you know it—Ali Express, that giant Chinese e-commerce site, had a sale on greenhouses.
+I bought one of those mail-order greenhouses—you know, the kind that arrives flatpacked like IKEA furniture? See, it was the height of the pandemic and I had just joined a gardening club. Now I didn’t know the first thing about gardening—my few heirloom tomato planters in the backyard had only ever produced disappointment—but I did know a thing or two about FOMO. When my friends started posting their starters on social media I knew I had to catch up, and wouldn’t you know it—AliExpress, that giant Chinese e-commerce site, had a sale on greenhouses.
 
 I figured, what was the worst that could happen? Well, a lot. I could’ve opened a box of shattered glass and twisted metal. Or maybe the photos had been shopped and the finished product was only a foot tall?
 
