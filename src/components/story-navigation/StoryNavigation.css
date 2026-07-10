@@ -14,7 +14,7 @@ nav.story-nav {
   font-family: var(--font-story-title);
   font-size: .9375rem;
   line-height: 1.4;
-  color: #333;
+  color: var(--color-text);
   text-decoration: none;
 }
 
@@ -46,6 +46,6 @@ nav.story-nav {
 }
 
 .story-nav-link:hover {
-  color: #111;
+  color: var(--color-text-strong);
   text-decoration: underline;
 }

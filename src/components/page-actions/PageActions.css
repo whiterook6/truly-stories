@@ -17,10 +17,10 @@
   font-family: var(--font-story-title);
   font-size: .9375rem;
   line-height: 1.4;
-  color: #fff;
+  color: var(--color-button-text);
   text-decoration: none;
-  background-color: #333;
-  border: 1px solid #333;
+  background-color: var(--color-button-bg);
+  border: 1px solid var(--color-button-bg);
   border-radius: .375rem;
   padding: .35rem .75rem;
 }
@@ -50,8 +50,8 @@
 
 .page-action-link:hover,
 .page-action-btn:hover {
-  background-color: #1a1a1a;
-  border-color: #1a1a1a;
+  background-color: var(--color-button-bg-hover);
+  border-color: var(--color-button-bg-hover);
 }
 
 .page-action-link:hover .page-action-label {

@@ -37,6 +37,30 @@
 
   --gutter: 1rem;
   --content-max: 100%;
+
+  --color-bg: #f8f8f6;
+  --color-text: #333;
+  --color-text-strong: #111;
+  --color-text-muted: #666;
+  --color-text-faint: #aaa;
+  --color-border: #e0e0dc;
+  --color-button-bg: #333;
+  --color-button-text: #fff;
+  --color-button-bg-hover: #1a1a1a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #161614;
+    --color-text: #e8e6e1;
+    --color-text-strong: #f5f3ee;
+    --color-text-muted: #a8a69e;
+    --color-text-faint: #7a7870;
+    --color-border: #2e2e2a;
+    --color-button-bg: #e8e6e1;
+    --color-button-text: #161614;
+    --color-button-bg-hover: #f5f3ee;
+  }
 }
 
 @media (min-width: 40rem) {
@@ -68,6 +92,7 @@
 
 html {
   -webkit-text-size-adjust: 100%;
+  color-scheme: light dark;
 }
 
 body {
@@ -75,8 +100,26 @@ body {
   font-family: var(--font-copy);
   font-size: 1rem;
   line-height: 1.6;
-  color: #333;
-  background-color: #f8f8f6;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  body,
+  a,
+  button,
+  .story-list-item,
+  .page-action-link,
+  .page-action-btn,
+  .story-nav-link,
+  .story-list-tags,
+  .story-list-details,
+  .story-list-sep {
+    transition:
+      color 0.4s ease,
+      background-color 0.4s ease,
+      border-color 0.4s ease;
+  }
 }
 
 main {
