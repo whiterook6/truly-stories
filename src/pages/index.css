@@ -25,13 +25,13 @@
   flex-direction: column;
   gap: 0.25rem;
   padding-block: 1rem;
-  border-top: 1px solid #e0e0dc;
+  border-top: 1px solid var(--color-border);
 }
 
 .story-list-link {
   font-family: var(--font-story-title);
   font-size: 1.25rem;
-  color: #333;
+  color: var(--color-text);
   text-decoration: none;
   display: inline-flex;
   align-items: center;
@@ -51,7 +51,7 @@
 .story-list-details {
   font-family: var(--font-story-title);
   font-size: 0.875rem;
-  color: #666;
+  color: var(--color-text-muted);
 }
 
 .story-list-tags {
@@ -67,5 +67,5 @@
 }
 
 .story-list-sep {
-  color: #aaa;
+  color: var(--color-text-faint);
 }
