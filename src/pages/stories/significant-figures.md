@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Story.astro
+layout: "@/layouts/story/Story.astro"
 title: "Significant Figures"
 publishDate: 2026-03-06
 author: "Tim Graboski"

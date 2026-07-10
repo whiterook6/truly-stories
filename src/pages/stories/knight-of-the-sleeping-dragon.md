@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Story.astro
+layout: "@/layouts/story/Story.astro"
 title: "Knight of the Sleeping Dragon"
 publishDate: 2026-07-09
 author: "Tim Graboski"
@@ -10,11 +10,11 @@ Deep in the Great Smoky Mountains, near the border between Tennessee and North C
 
 \---
 
-One day, at the last gas station and the last turn off before the Tail of the Dragon, a young lad named Phillip was leaning against his bike, refilling its tank, when he heard the distinctive rumbling of a late-80’s Indian Scout. He watched an old lady drive up the road, blow past the signs and the barricade, and disappear around the first bend.
+One day, at the last gas station and the last turn off before the Tail of the Dragon, a young lad named Phillip was leaning against his bike, refilling its tank, when he heard the distinctive rumbling of a late-80’s Indian Scout. He watched an old lady with cherry-colored hair drive up the road, blow past the signs and the barricade, and disappear around the first bend.
 
-Tourists ignored the warnings now and then. Most never reached the summit. This rider looked no different: elderly, astride a poorly-maintained motorcycle, riding like a lunatic.
+Tourists ignored the warnings now and then. Most turned back before too long. Some never made it back at all. This rider looked like she should have been the same: a sad old nobody on a battered motorcycle trying to resurrect a little of her youth
 
-But even as Phillip peeled out of the gas station to follow, he knew this rider was different. She was dressed in leather. She had hair the color of cherries. And strapped to her back was a greatsword: the kind used to slay a dragon.
+But as Phillip peeled out of the gas station to follow, he realized she was different. She wore the leather of a true biker. She drove like a lunatic. And she had strapped to her back a greatsword: the kind used to slay a dragon.
 
 \---
 
@@ -28,15 +28,15 @@ Cherry yelled back, “So? Slow down.”
 
 Cherry yelled back, “I don’t see any Knights here.”
 
-He opened his mouth to argue—then gasped and slammed on the brakes. There was a right turn where it was supposed to lean left. He skidded to a stop and watched rocks tumble down the cliffside into the half-charred valley below.
+Phillip opened his mouth to argue—then gasped and slammed on the brakes. There was a right turn where it was supposed to lean left. He skidded to a stop and watched rocks tumble down the cliffside into the half-charred valley below.
 
-When he caught his breath, she was gone.
+When he caught his breath, Cherry was gone.
 
 \---
 
 Night had fallen when Phillip found her. She had made camp by the ruins of an old rest stop that had been pulled apart as the ground shifted over the years. Firelight danced across the broken cinder block walls.
 
-He considered sneaking up on her in the darkness, but Harleys aren’t known for stealth and discretion. She’d probably heard him from miles away.
+He considered sneaking up on her in the darkness, but Harleys aren’t known for stealth or discretion. She’d probably heard him from miles away.
 
 He parked beside her bike and walked up. Eventually she looked at him.
 
@@ -44,7 +44,7 @@ He parked beside her bike and walked up. Eventually she looked at him.
 
 She laughed. “Kid, there’s nowhere I belong.”
 
-He sat opposite her, and said, “I’m serious. Turn around while you can. This is no normal road. No one’s ever made it back alive.”
+He sat opposite her. “I’m serious,” he said. “Turn around while you can. This is no normal road. No one’s ever made it back alive.”
 
 “I know,” Cherry said, looking back into the fire. “Before you were even born, my husband died trying to reach the summit. He would’ve made it, too. He was the best rider I’ve ever known.”
 
@@ -56,7 +56,7 @@ Phillip considered sabotaging her motorcycle. He even imagined killing her in he
 
 \---
 
-They were woken by the growl of motorcycles echoing through the mountains. Ashes fell from a dark orange sky. Cherry took off and never looked back. After a few minutes of hesitation, Phillip followed her.
+They were woken by the growl of motorcycles echoing through the mountains. Ashes fell from a dark orange sky. Cherry took off without a word. After a few minutes of hesitation, Phillip followed her.
 
 The air warmed as they climbed. Charcoal trees lined the road. Corner after corner stacked one atop another. They passed cairn after cairn, stone monuments crowned with the helmets of fallen riders. Still she refused to slow.
 
@@ -78,7 +78,7 @@ Phillip nodded. “The last one.”
 
 “There’s no one else coming? Ha\!”
 
-The Dragonslayer was an intimidating figure. Covered in scars and leather, with muscles that belied her age, while Phillip was a scrawny boy. She wasn’t scared of him. In her hands she wielded a sword meant to slay a dragon.
+The Dragonslayer was an intimidating figure. Covered in scars and leather, with muscles that belied her age, while Phillip just was a scrawny punk kid. She wasn’t scared of him. In her hands she wielded a sword meant to slay a dragon.
 
 But Phillip had a sword meant to slay a man.
 
@@ -92,7 +92,7 @@ She grabbed his blade and sliced him across his gut.
 
 He fell to the ground and curled up, clutching his wound.
 
-Cherry retrieved her greatsword and slid down the crater, buffeted by the wall of noise flowing out of the rock.
+Cherry retrieved her greatsword and skidded down the crater, buffeted by the wall of noise flowing out of the rock.
 
 “Please, don’t\!” Phillip gasped, reaching desperately.
 

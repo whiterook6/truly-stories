@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Story.astro
+layout: "@/layouts/story/Story.astro"
 title: "Every Step of the Way"
 publishDate: 2026-04-02
 author: "Tim Graboski"
