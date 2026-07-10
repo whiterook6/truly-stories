@@ -3,7 +3,7 @@ layout: ../../layouts/Story.astro
 title: "Knight of the Sleeping Dragon"
 publishDate: 2026-07-09
 author: "Tim Graboski"
-tags: ["mountain road", motorcycles, mythical, "modern fantasy"]
+tags: [mythical, "modern fantasy", "mountain road", motorcycles]
 ---
 
 Deep in the Great Smoky Mountains, near the border between Tennessee and North Carolina, there was a stretch of US Route 129 known to the locals as the Tail of the Dragon. It was the deadliest road in America: not only because it packed over 300 blind corners into eleven miles, but because it belonged to a dangerous biker gang called the Knights of Appalachia.
@@ -34,9 +34,9 @@ When he caught his breath, she was gone.
 
 \---
 
-Night had fallen when Phillip found her. She had made camp by the ruins of an old rest stop that had been pulled apart as the ground shifted over the years. Firelight danced across the broken cinder block walls. 
+Night had fallen when Phillip found her. She had made camp by the ruins of an old rest stop that had been pulled apart as the ground shifted over the years. Firelight danced across the broken cinder block walls.
 
-He considered sneaking up on her in the darkness, but Harleys aren’t known for stealth and discretion. She’d probably heard him from miles away. 
+He considered sneaking up on her in the darkness, but Harleys aren’t known for stealth and discretion. She’d probably heard him from miles away.
 
 He parked beside her bike and walked up. Eventually she looked at him.
 
