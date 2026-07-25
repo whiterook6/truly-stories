@@ -1,3 +1,5 @@
+import { existsSync } from 'node:fs';
+import { join } from 'node:path';
 import { getPublishDateTime, toDateString } from './date';
 
 export interface Story {
@@ -77,9 +79,17 @@ export function getStories(sort: 'asc' | 'desc' = 'desc'): Story[] {
   });
 }
 
-function pathToSlug(path: string): string {
+export function pathToSlug(path: string): string {
   const match = path.match(/\/stories\/([^/]+)\/?$/);
   return match?.[1] ?? '';
+}
+
+export function getStoryDownloadHref(slug: string | undefined): string | undefined {
+  if (!slug) return undefined;
+
+  const href = `/downloads/${slug}.epub`;
+  const filePath = join(process.cwd(), 'public', 'downloads', `${slug}.epub`);
+  return existsSync(filePath) ? href : undefined;
 }
 
 export function getStoryNeighbors(currentPath: string): {

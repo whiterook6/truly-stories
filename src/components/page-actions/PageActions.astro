@@ -3,11 +3,11 @@ import './PageActions.css';
 
 const {
   showBackButton,
-  onClickDownload,
+  downloadHref,
   onClickShare,
 } = Astro.props as Partial<{
   showBackButton: boolean;
-  onClickDownload: string;
+  downloadHref: string;
   onClickShare: string;
 }>;
 
@@ -27,8 +27,8 @@ const {
       <span class="page-action-label">Back to Stories</span>
     </a>
   )}
-  {onClickDownload && (
-    <button type="button" class="page-action-btn" aria-label="Download" onclick={onClickDownload}>
+  {downloadHref && (
+    <a class="page-action-btn" href={downloadHref} download aria-label="Download EPUB">
       <span class="page-action-icon" aria-hidden="true">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
           stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -38,7 +38,7 @@ const {
           <path d="m7 10 5 5 5-5" />
         </svg>
       </span>
-    </button>
+    </a>
   )}
   {onClickShare && (
     <button type="button" class="page-action-btn" aria-label="Share" onclick={onClickShare}>
