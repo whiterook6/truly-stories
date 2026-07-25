@@ -8,7 +8,7 @@ tags: [whimsical, adventure, wandering, fantasy]
 
 Boz was already wide awake when he heard barking outside. No one else in the crowded Winnebago stirred. It wasn’t the loud howling of some shadowy beast, but instead the tiny bark from a tiny nuisance that nonetheless would’ve woken Boz anyway.
 
-It was a relief, honestly, after days of eating, drinking, smoking, and sleeping with the generous hosts who had opened their door to a total stranger. For someone like Boz, four lovely days of daring to believe he was allowed to settle was a lot.
+It was a relief, honestly, after days of eating, drinking, smoking, and sleeping with the generous hosts who had opened their door to a total stranger. For someone like Boz, three lovely days of daring to believe he was allowed to settle was a lot.
 
 But they had returned, like always. The trail was a forgiving yet jealous lover—and who was Boz to fight his path?
 
