@@ -4,6 +4,8 @@
 
 # build output
 dist/
+public/downloads/
+
 # generated types
 .astro/
 

@@ -16,6 +16,8 @@ const subtitle = formatDate(frontmatter.publishDate);
 
 const currentPath = Astro.url.pathname;
 const { previous, next } = getStoryNeighbors(currentPath);
+const slug = currentPath.match(/\/stories\/([^/]+)\/?$/)?.[1];
+const downloadHref = slug ? `/downloads/${slug}.epub` : undefined;
 ---
 
 <html lang="en">
@@ -33,7 +35,7 @@ const { previous, next } = getStoryNeighbors(currentPath);
         </header>
         <slot />
         <StoryNavigation previous={previous} next={next} />
-        <PageActions showBackButton={true} />
+        <PageActions showBackButton={true} downloadHref={downloadHref} />
       </article>
     </main>
   </body>

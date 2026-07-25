@@ -14,11 +14,14 @@
     "preview": "astro preview"
   },
   "dependencies": {
-    "astro": "^6.4.4"
+    "astro": "^6.4.4",
+    "epub-gen-memory": "^1.1.2"
   },
   "devDependencies": {
+    "@types/node": "^26.1.1",
     "gh-pages": "^6.3.0",
     "gray-matter": "^4.0.3",
+    "marked": "^18.0.7",
     "tsx": "^4.23.1",
     "typescript": "^6.0.3"
   }
