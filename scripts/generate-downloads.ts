@@ -113,7 +113,13 @@ const run = async () => {
   await Promise.all(stories.map(async (story) => {
     const epubFile = await generateEPub(story);
     await writeFile(path.join(downloadsDirectory, `${story.slug}.epub`), epubFile);
+    console.log(`Generated ${story.slug}.epub`);
   }));
 };
 
-run();
+run().then(() => {
+  process.exit(0);
+}).catch((error) => {
+  console.error("Error generating downloads:", error);
+  process.exit(1);
+});
