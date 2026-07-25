@@ -8,7 +8,7 @@
   "scripts": {
     "astro": "astro",
     "build": "astro build",
-    "deploy": "astro build && gh-pages -d dist --dotfiles",
+    "deploy": "npm run generate:downloads && astro build && gh-pages -d dist --dotfiles",
     "dev": "astro dev",
     "generate:downloads": "tsx scripts/generate-downloads.ts",
     "preview": "astro preview"
