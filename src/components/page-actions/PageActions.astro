@@ -1,27 +1,45 @@
 ---
-import BackLink from './BackLink.astro';
-import DownloadButton from './DownloadButton.astro';
-import HomeLink from './HomeLink.astro';
-import ShareButton from './ShareButton.astro';
-import './PageActions.css';
+import LinkButton from "@/components/icon-link-button/IconLinkButton.astro";
+import ArrowLeftIcon from "@/components/icons/ArrowLeftIcon.astro";
+import DownloadIcon from "@/components/icons/DownloadIcon.astro";
+import HouseIcon from "@/components/icons/HouseIcon.astro";
+import "./PageActions.css";
 
 interface Props {
   showHomeButton?: boolean;
   backHref?: string;
   downloadHref?: string;
-  onClickShare?: string;
 }
 
 const {
   showHomeButton,
   backHref,
   downloadHref,
-  onClickShare,
 } = Astro.props as Props;
 ---
+
 <div class="page-actions" role="group" aria-label="Page actions">
-  {showHomeButton && <HomeLink />}
-  {backHref && <BackLink href={backHref} />}
-  {downloadHref && <DownloadButton href={downloadHref} />}
-  {onClickShare && <ShareButton onClick={onClickShare} />}
+  {
+    showHomeButton && (
+      <LinkButton href="/">
+        <HouseIcon slot="icon" />
+        Back to Stories
+      </LinkButton>
+    )
+  }
+  {
+    backHref && (
+      <LinkButton href={backHref}>
+        <ArrowLeftIcon slot="icon" />
+        Back
+      </LinkButton>
+    )
+  }
+  {
+    downloadHref && (
+      <LinkButton href={downloadHref} download aria-label="Download">
+        <DownloadIcon slot="icon" />
+      </LinkButton>
+    )
+  }
 </div>
