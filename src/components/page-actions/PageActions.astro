@@ -9,19 +9,19 @@ interface Props {
   showHomeButton?: boolean;
   backHref?: string;
   downloadHref?: string;
-  onClickShare?: string;
+  shareHref?: string;
 }
 
 const {
   showHomeButton,
   backHref,
   downloadHref,
-  onClickShare,
+  shareHref,
 } = Astro.props as Props;
 ---
 <div class="page-actions" role="group" aria-label="Page actions">
   {showHomeButton && <HomeLink />}
   {backHref && <BackLink href={backHref} />}
   {downloadHref && <DownloadButton href={downloadHref} />}
-  {onClickShare && <ShareButton onClick={onClickShare} />}
+  {shareHref && <ShareButton href={shareHref} />}
 </div>

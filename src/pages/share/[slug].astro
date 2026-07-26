@@ -25,7 +25,7 @@ const description = `Share “${story.title}” by Tim Graboski.`;
         <h1 class="story-title">{story.title}</h1>
         <h2 class="story-subtitle">Share</h2>
       </header>
-      <PageActions showBackButton={true} />
+      <PageActions backHref={`/stories/${story.slug}`} />
     </article>
     </main>
   </body>

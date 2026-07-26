@@ -2,13 +2,13 @@
 import ShareIcon from '@/components/icons/ShareIcon.astro';
 
 interface Props {
-  onClick: string;
+  href: string;
 }
 
-const { onClick } = Astro.props as Props;
+const { href } = Astro.props as Props;
 ---
-<button type="button" class="page-action-btn" aria-label="Share" onclick={onClick}>
+<a class="page-action-link" href={href}>
   <span class="page-action-icon" aria-hidden="true">
     <ShareIcon />
   </span>
-</button>
+</a>
