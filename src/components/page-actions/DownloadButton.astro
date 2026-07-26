@@ -1,0 +1,14 @@
+---
+import DownloadIcon from '@/components/icons/DownloadIcon.astro';
+
+interface Props {
+  href: string;
+}
+
+const { href } = Astro.props as Props;
+---
+<a class="page-action-btn" href={href} download aria-label="Download">
+  <span class="page-action-icon" aria-hidden="true">
+    <DownloadIcon />
+  </span>
+</a>

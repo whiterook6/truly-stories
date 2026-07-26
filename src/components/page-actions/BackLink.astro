@@ -1,0 +1,15 @@
+---
+import ArrowLeftIcon from '@/components/icons/ArrowLeftIcon.astro';
+
+interface Props {
+  href: string;
+}
+
+const { href } = Astro.props as Props;
+---
+<a class="page-action-link" href={href}>
+  <span class="page-action-icon" aria-hidden="true">
+    <ArrowLeftIcon />
+  </span>
+  <span class="page-action-label">Back</span>
+</a>
