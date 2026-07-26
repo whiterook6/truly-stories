@@ -1,0 +1,32 @@
+---
+import Head from '@/components/head/Head.astro';
+import { getStories, type Story } from '@/utils/stories';
+import '@/styles/global.css';
+import '../index.css';
+import PageActions from '../../components/page-actions/PageActions.astro';
+
+export function getStaticPaths() {
+  return getStories().map((story) => ({
+    params: { slug: story.slug },
+    props: { story },
+  }));
+}
+
+const { story } = Astro.props as { story: Story };
+const title = `Share — ${story.title}`;
+const description = `Share “${story.title}” by Tim Graboski.`;
+---
+
+<html lang="en">
+  <Head title={title} description={description} />
+  <body>
+    <main>
+      <header>
+        <h1 class="story-title">{story.title}</h1>
+        <h2 class="story-subtitle">Share</h2>
+      </header>
+      <PageActions showBackButton={true} />
+    </article>
+    </main>
+  </body>
+</html>
