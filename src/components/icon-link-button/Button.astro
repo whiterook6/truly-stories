@@ -7,9 +7,7 @@ interface Props extends HTMLAttributes<"button"> {}
 const { class: className, type = "button", ...attrs } = Astro.props as Props;
 
 const hasIcon = Astro.slots.has("icon");
-const labelHtml = Astro.slots.has("default")
-  ? (await Astro.slots.render("default")).trim()
-  : "";
+const hasLabel = Astro.slots.has("default");
 ---
 
 <button class:list={["button", className]} type={type} {...attrs}>
@@ -20,5 +18,11 @@ const labelHtml = Astro.slots.has("default")
       </span>
     )
   }
-  {labelHtml && <span class="button-label" set:html={labelHtml} />}
+  {
+    hasLabel && (
+      <span class="button-label">
+        <slot />
+      </span>
+    )
+  }
 </button>

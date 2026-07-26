@@ -1,12 +1,12 @@
 ---
 import Head from '@/components/head/Head.astro';
+import Button from '@/components/icon-link-button/Button.astro';
+import CheckIcon from '@/components/icons/CheckIcon.astro';
+import ClipboardCopy from '@/components/icons/ClipboardCopy.astro';
+import PageActions from '@/components/page-actions/PageActions.astro';
 import '@/styles/global.css';
 import { getStories, type Story } from '@/utils/stories';
-import PageActions from '../../components/page-actions/PageActions.astro';
 import QRCode from 'qrcode';
-import ClipboardCopy from '@/components/icons/ClipboardCopy.astro';
-import CheckIcon from '@/components/icons/CheckIcon.astro';
-import Button from '@/components/icon-link-button/Button.astro';
 import '../index.css';
 import './share.css';
 
@@ -21,7 +21,7 @@ const { story } = Astro.props as { story: Story };
 const title = `Share — ${story.title}`;
 const description = `Share “${story.title}” by Tim Graboski.`;
 
-const storyUrl = new URL(`/stories/${story.slug}/`, Astro.site).href;
+const storyUrl = new URL(story.href, Astro.site).href;
 const qrCode = await QRCode.toString(storyUrl, {
   type: "svg",
   width: 200,
@@ -61,7 +61,7 @@ const qrCode = await QRCode.toString(storyUrl, {
             </Button>
           </div>
         </div>
-        <PageActions backHref={`/stories/${story.slug}`} />
+        <PageActions backHref={story.href} />
       </article>
     </main>
     <script>
