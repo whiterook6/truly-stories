@@ -5,6 +5,8 @@ import { getStories, type Story } from '@/utils/stories';
 import PageActions from '../../components/page-actions/PageActions.astro';
 import QRCode from 'qrcode';
 import ClipboardCopy from '@/components/icons/ClipboardCopy.astro';
+import CheckIcon from '@/components/icons/CheckIcon.astro';
+import Button from '@/components/icon-link-button/Button.astro';
 import '../index.css';
 import './share.css';
 
@@ -38,19 +40,26 @@ const qrCode = await QRCode.toString(storyUrl, {
       <article>
         <header>
           <h1 class="story-title">{story.title}</h1>
-          <h2 class="story-subtitle">Share</h2>
+          <h2 class="story-subtitle">Share This Story</h2>
         </header>
-        <div class="share-url">
-          <pre>{storyUrl}</pre>
-          <button type="button" class="share-url-copy" data-copy-url={storyUrl}>
-            <span class="share-url-copy-icon">
-              <ClipboardCopy />
-            </span>
-            <span class="share-url-copy-text">Copy</span>
-          </button>
-        </div>
-        <div class="share-qr-code">
-          <Fragment set:html={qrCode} />
+        <div class="share-content">
+          <div class="share-qr-code">
+            <Fragment set:html={qrCode} />
+          </div>
+          <div class="share-url">
+            <pre>{storyUrl}</pre>
+            <Button class="share-url-copy" data-copy-url={storyUrl}>
+              <span slot="icon" class="share-copy-icons">
+                <span data-icon="copy">
+                  <ClipboardCopy />
+                </span>
+                <span data-icon="success" hidden>
+                  <CheckIcon />
+                </span>
+              </span>
+              Copy URL
+            </Button>
+          </div>
         </div>
         <PageActions backHref={`/stories/${story.slug}`} />
       </article>
@@ -59,22 +68,36 @@ const qrCode = await QRCode.toString(storyUrl, {
       document.querySelectorAll('.share-url-copy').forEach((button) => {
         if (!(button instanceof HTMLButtonElement)) return;
 
+        const copyIcon = button.querySelector('[data-icon="copy"]');
+        const successIcon = button.querySelector('[data-icon="success"]');
+        if (!(copyIcon instanceof HTMLElement) || !(successIcon instanceof HTMLElement)) {
+          return;
+        }
+
+        let resetTimer = 0;
+
+        const showCopyIcon = () => {
+          copyIcon.hidden = false;
+          successIcon.hidden = true;
+        };
+
+        const showSuccessIcon = () => {
+          copyIcon.hidden = true;
+          successIcon.hidden = false;
+        };
+
         button.addEventListener('click', async () => {
           const url = button.dataset.copyUrl;
           if (!url) return;
 
+          window.clearTimeout(resetTimer);
+
           try {
             await navigator.clipboard.writeText(url);
-            const label = button.textContent;
-            button.textContent = 'Copied!';
-            window.setTimeout(() => {
-              button.textContent = label;
-            }, 1500);
+            showSuccessIcon();
+            resetTimer = window.setTimeout(showCopyIcon, 1500);
           } catch {
-            button.textContent = 'Failed';
-            window.setTimeout(() => {
-              button.textContent = 'Copy';
-            }, 1500);
+            showCopyIcon();
           }
         });
       });

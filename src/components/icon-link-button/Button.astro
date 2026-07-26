@@ -1,0 +1,24 @@
+---
+import type { HTMLAttributes } from "astro/types";
+import "./IconLinkButton.css";
+
+interface Props extends HTMLAttributes<"button"> {}
+
+const { class: className, type = "button", ...attrs } = Astro.props as Props;
+
+const hasIcon = Astro.slots.has("icon");
+const labelHtml = Astro.slots.has("default")
+  ? (await Astro.slots.render("default")).trim()
+  : "";
+---
+
+<button class:list={["button", className]} type={type} {...attrs}>
+  {
+    hasIcon && (
+      <span class="button-icon" aria-hidden="true">
+        <slot name="icon" />
+      </span>
+    )
+  }
+  {labelHtml && <span class="button-label" set:html={labelHtml} />}
+</button>
