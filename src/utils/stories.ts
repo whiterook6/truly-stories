@@ -92,6 +92,11 @@ export function getStoryDownloadHref(slug: string | undefined): string | undefin
   return existsSync(filePath) ? href : undefined;
 }
 
+export function getStoryShareHref(slug: string | undefined): string | undefined {
+  if (!slug) return undefined;
+  return `/share/${slug}`;
+}
+
 export function getStoryNeighbors(currentPath: string): {
   previous: Story | null;
   next: Story | null;

@@ -3,18 +3,23 @@ import LinkButton from "@/components/icon-link-button/IconLinkButton.astro";
 import ArrowLeftIcon from "@/components/icons/ArrowLeftIcon.astro";
 import DownloadIcon from "@/components/icons/DownloadIcon.astro";
 import HouseIcon from "@/components/icons/HouseIcon.astro";
+import ShareIcon from "@/components/icons/ShareIcon.astro";
 import "./PageActions.css";
 
 interface Props {
   showHomeButton?: boolean;
   backHref?: string;
   downloadHref?: string;
+  shareHref?: string;
+  shareLabel?: string;
 }
 
 const {
   showHomeButton,
   backHref,
   downloadHref,
+  shareHref,
+  shareLabel,
 } = Astro.props as Props;
 ---
 
@@ -40,6 +45,20 @@ const {
       <LinkButton href={downloadHref} download aria-label="Download">
         <DownloadIcon slot="icon" />
       </LinkButton>
+    )
+  }
+  {
+    shareHref && (
+      shareLabel ? (
+        <LinkButton href={shareHref}>
+          <ShareIcon slot="icon" />
+          {shareLabel}
+        </LinkButton>
+      ) : (
+        <LinkButton href={shareHref} aria-label="Share">
+          <ShareIcon slot="icon" />
+        </LinkButton>
+      )
     )
   }
 </div>

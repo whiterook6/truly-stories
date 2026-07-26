@@ -4,23 +4,35 @@ import PageActions from "@/components/page-actions/PageActions.astro";
 import StoryNavigation from "@/components/story-navigation/StoryNavigation.astro";
 import "@/styles/global.css";
 import { formatDate, toDateString } from "@/utils/date";
-import { getStoryDownloadHref, getStoryNeighbors, pathToSlug, type StoryFrontmatter } from "@/utils/stories";
+import { getStoryDownloadHref, getStoryNeighbors, pathToSlug, getStoryShareHref, type StoryFrontmatter } from "@/utils/stories";
 import "./Story.css";
 
 const { frontmatter } = Astro.props as { frontmatter: StoryFrontmatter };
 const title = frontmatter.title ?? "Story";
 const author = frontmatter.author ?? "Tim Graboski";
-const description = `${title} — a short story by ${author}.`;
+const tags = frontmatter.tags;
+const description = tags?.length
+  ? `${title} by ${author} — ${tags.join(", ")}.`
+  : `${title} — a short story by ${author}.`;
 const publishDate = toDateString(frontmatter.publishDate);
 const subtitle = formatDate(frontmatter.publishDate);
 
 const currentPath = Astro.url.pathname;
 const { previous, next } = getStoryNeighbors(currentPath);
-const downloadHref = getStoryDownloadHref(pathToSlug(currentPath));
+const slug = pathToSlug(currentPath);
+const downloadHref = getStoryDownloadHref(slug);
+const shareHref = getStoryShareHref(slug);
 ---
 
 <html lang="en">
-  <Head title={title} description={description}>
+  <Head
+    title={title}
+    description={description}
+    type="article"
+    publishedTime={`${publishDate}T00:00:00Z`}
+    author={author}
+    tags={tags}
+  >
     <meta name="author" content={author} />
   </Head>
   <body>
@@ -34,7 +46,7 @@ const downloadHref = getStoryDownloadHref(pathToSlug(currentPath));
         </header>
         <slot />
         <StoryNavigation previous={previous} next={next} />
-        <PageActions showHomeButton={true} downloadHref={downloadHref} />
+        <PageActions showHomeButton={true} downloadHref={downloadHref} shareHref={shareHref}  />
       </article>
     </main>
   </body>

@@ -1,6 +1,7 @@
 ---
 import Head from '@/components/head/Head.astro';
 import ArrowRightIcon from '@/components/icons/ArrowRightIcon.astro';
+import PageActions from '@/components/page-actions/PageActions.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '@/consts';
 import { formatDate } from '@/utils/date';
 import { getStories } from '@/utils/stories';
@@ -11,7 +12,7 @@ const stories = getStories('desc');
 ---
 
 <html lang="en">
-  <Head title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  <Head title={SITE_TITLE} description={SITE_DESCRIPTION} type="website" />
   <body>
     <main>
       <h1 class="page-title">{SITE_TITLE}</h1>
@@ -40,6 +41,7 @@ const stories = getStories('desc');
           ))
         }
       </ul>
+      <PageActions shareHref="/share/" shareLabel="Share" />
     </main>
   </body>
 </html>

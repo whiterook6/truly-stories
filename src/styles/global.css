@@ -93,6 +93,7 @@
 html {
   -webkit-text-size-adjust: 100%;
   color-scheme: light dark;
+  scrollbar-gutter: stable;
 }
 
 body {

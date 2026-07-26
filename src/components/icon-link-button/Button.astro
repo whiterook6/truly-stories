@@ -2,17 +2,15 @@
 import type { HTMLAttributes } from "astro/types";
 import "./IconLinkButton.css";
 
-interface Props extends HTMLAttributes<"a"> {
-  href: string;
-}
+interface Props extends HTMLAttributes<"button"> {}
 
-const { class: className, ...attrs } = Astro.props as Props;
+const { class: className, type = "button", ...attrs } = Astro.props as Props;
 
 const hasIcon = Astro.slots.has("icon");
 const hasLabel = Astro.slots.has("default");
 ---
 
-<a class:list={["button", className]} {...attrs}>
+<button class:list={["button", className]} type={type} {...attrs}>
   {
     hasIcon && (
       <span class="button-icon" aria-hidden="true">
@@ -27,4 +25,4 @@ const hasLabel = Astro.slots.has("default");
       </span>
     )
   }
-</a>
+</button>
