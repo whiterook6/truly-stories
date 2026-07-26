@@ -13,7 +13,7 @@ const { previous, next } = Astro.props as Props;
   <nav class="story-nav" aria-label="Story navigation">
     {previous && (
       <a class="story-nav-link story-nav-prev" href={previous.href}>
-        <span class="story-nav-icon">
+        <span class="story-nav-icon" aria-hidden="true">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
             class="lucide lucide-arrow-left-icon lucide-arrow-left" aria-hidden="true">
@@ -27,7 +27,7 @@ const { previous, next } = Astro.props as Props;
     {next && (
       <a class="story-nav-link story-nav-next" href={next.href}>
         <span class="story-nav-label">Next: {next.title}</span>
-        <span class="story-nav-icon">
+        <span class="story-nav-icon" aria-hidden="true">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
             stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
             class="lucide lucide-arrow-right-icon lucide-arrow-right" aria-hidden="true">
