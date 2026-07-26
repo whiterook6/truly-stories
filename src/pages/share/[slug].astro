@@ -1,9 +1,12 @@
 ---
 import Head from '@/components/head/Head.astro';
-import { getStories, type Story } from '@/utils/stories';
 import '@/styles/global.css';
-import '../index.css';
+import { getStories, type Story } from '@/utils/stories';
 import PageActions from '../../components/page-actions/PageActions.astro';
+import QRCode from 'qrcode';
+import ClipboardCopy from '@/components/icons/ClipboardCopy.astro';
+import '../index.css';
+import './share.css';
 
 export function getStaticPaths() {
   return getStories().map((story) => ({
@@ -15,18 +18,66 @@ export function getStaticPaths() {
 const { story } = Astro.props as { story: Story };
 const title = `Share — ${story.title}`;
 const description = `Share “${story.title}” by Tim Graboski.`;
+
+const storyUrl = new URL(`/stories/${story.slug}/`, Astro.site).href;
+const qrCode = await QRCode.toString(storyUrl, {
+  type: "svg",
+  width: 200,
+  margin: 0,
+  color: {
+    dark: "#333",
+    light: "#fff",
+  },
+})
 ---
 
 <html lang="en">
   <Head title={title} description={description} />
   <body>
     <main>
-      <header>
-        <h1 class="story-title">{story.title}</h1>
-        <h2 class="story-subtitle">Share</h2>
-      </header>
-      <PageActions backHref={`/stories/${story.slug}`} />
-    </article>
+      <article>
+        <header>
+          <h1 class="story-title">{story.title}</h1>
+          <h2 class="story-subtitle">Share</h2>
+        </header>
+        <div class="share-url">
+          <pre>{storyUrl}</pre>
+          <button type="button" class="share-url-copy" data-copy-url={storyUrl}>
+            <span class="share-url-copy-icon">
+              <ClipboardCopy />
+            </span>
+            <span class="share-url-copy-text">Copy</span>
+          </button>
+        </div>
+        <div class="share-qr-code">
+          <Fragment set:html={qrCode} />
+        </div>
+        <PageActions backHref={`/stories/${story.slug}`} />
+      </article>
     </main>
+    <script>
+      document.querySelectorAll('.share-url-copy').forEach((button) => {
+        if (!(button instanceof HTMLButtonElement)) return;
+
+        button.addEventListener('click', async () => {
+          const url = button.dataset.copyUrl;
+          if (!url) return;
+
+          try {
+            await navigator.clipboard.writeText(url);
+            const label = button.textContent;
+            button.textContent = 'Copied!';
+            window.setTimeout(() => {
+              button.textContent = label;
+            }, 1500);
+          } catch {
+            button.textContent = 'Failed';
+            window.setTimeout(() => {
+              button.textContent = 'Copy';
+            }, 1500);
+          }
+        });
+      });
+    </script>
   </body>
 </html>

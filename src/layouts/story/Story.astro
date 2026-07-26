@@ -10,7 +10,10 @@ import "./Story.css";
 const { frontmatter } = Astro.props as { frontmatter: StoryFrontmatter };
 const title = frontmatter.title ?? "Story";
 const author = frontmatter.author ?? "Tim Graboski";
-const description = `${title} — a short story by ${author}.`;
+const tags = frontmatter.tags;
+const description = tags?.length
+  ? `${title} by ${author} — ${tags.join(", ")}.`
+  : `${title} — a short story by ${author}.`;
 const publishDate = toDateString(frontmatter.publishDate);
 const subtitle = formatDate(frontmatter.publishDate);
 
@@ -22,7 +25,14 @@ const shareHref = getStoryShareHref(slug);
 ---
 
 <html lang="en">
-  <Head title={title} description={description}>
+  <Head
+    title={title}
+    description={description}
+    type="article"
+    publishedTime={publishDate}
+    author={author}
+    tags={tags}
+  >
     <meta name="author" content={author} />
   </Head>
   <body>
