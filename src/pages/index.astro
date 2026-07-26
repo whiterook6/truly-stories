@@ -1,5 +1,6 @@
 ---
 import Head from '@/components/head/Head.astro';
+import ArrowRightIcon from '@/components/icons/ArrowRightIcon.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '@/consts';
 import { formatDate } from '@/utils/date';
 import { getStories } from '@/utils/stories';
@@ -21,12 +22,7 @@ const stories = getStories('desc');
             <li class="story-list-item">
               <a class="story-list-link" href={story.href}>
                 <span>{story.title}</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                  class="lucide lucide-arrow-right-icon lucide-arrow-right" aria-hidden="true">
-                  <path d="M5 12h14" />
-                  <path d="m12 5 7 7-7 7" />
-                </svg>
+                <ArrowRightIcon />
               </a>
               <div class="story-list-details">
                 <time class="story-list-date" datetime={story.publishDate}>
