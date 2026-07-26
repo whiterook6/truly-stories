@@ -1,14 +1,11 @@
 ---
 import Head from '@/components/head/Head.astro';
-import Button from '@/components/icon-link-button/Button.astro';
-import CheckIcon from '@/components/icons/CheckIcon.astro';
-import ClipboardCopy from '@/components/icons/ClipboardCopy.astro';
 import PageActions from '@/components/page-actions/PageActions.astro';
+import SharePanel from '@/components/share-panel/SharePanel.astro';
 import '@/styles/global.css';
+import '@/layouts/story/Story.css';
 import { getStories, type Story } from '@/utils/stories';
-import QRCode from 'qrcode';
 import '../index.css';
-import './share.css';
 
 export function getStaticPaths() {
   return getStories().map((story) => ({
@@ -20,17 +17,7 @@ export function getStaticPaths() {
 const { story } = Astro.props as { story: Story };
 const title = `Share — ${story.title}`;
 const description = `Share “${story.title}” by Tim Graboski.`;
-
-const storyUrl = new URL(story.href, Astro.site).href;
-const qrCode = await QRCode.toString(storyUrl, {
-  type: "svg",
-  width: 200,
-  margin: 0,
-  color: {
-    dark: "#333",
-    light: "#fff",
-  },
-})
+const shareUrl = new URL(story.href, Astro.site).href;
 ---
 
 <html lang="en">
@@ -42,65 +29,9 @@ const qrCode = await QRCode.toString(storyUrl, {
           <h1 class="story-title">{story.title}</h1>
           <h2 class="story-subtitle">Share This Story</h2>
         </header>
-        <div class="share-content">
-          <div class="share-qr-code">
-            <Fragment set:html={qrCode} />
-          </div>
-          <div class="share-url">
-            <pre>{storyUrl}</pre>
-            <Button class="share-url-copy" data-copy-url={storyUrl}>
-              <span slot="icon" class="share-copy-icons">
-                <span data-icon="copy">
-                  <ClipboardCopy />
-                </span>
-                <span data-icon="success" hidden>
-                  <CheckIcon />
-                </span>
-              </span>
-              Copy URL
-            </Button>
-          </div>
-        </div>
+        <SharePanel shareUrl={shareUrl} />
         <PageActions backHref={story.href} />
       </article>
     </main>
-    <script>
-      document.querySelectorAll('.share-url-copy').forEach((button) => {
-        if (!(button instanceof HTMLButtonElement)) return;
-
-        const copyIcon = button.querySelector('[data-icon="copy"]');
-        const successIcon = button.querySelector('[data-icon="success"]');
-        if (!(copyIcon instanceof HTMLElement) || !(successIcon instanceof HTMLElement)) {
-          return;
-        }
-
-        let resetTimer = 0;
-
-        const showCopyIcon = () => {
-          copyIcon.hidden = false;
-          successIcon.hidden = true;
-        };
-
-        const showSuccessIcon = () => {
-          copyIcon.hidden = true;
-          successIcon.hidden = false;
-        };
-
-        button.addEventListener('click', async () => {
-          const url = button.dataset.copyUrl;
-          if (!url) return;
-
-          window.clearTimeout(resetTimer);
-
-          try {
-            await navigator.clipboard.writeText(url);
-            showSuccessIcon();
-            resetTimer = window.setTimeout(showCopyIcon, 1500);
-          } catch {
-            showCopyIcon();
-          }
-        });
-      });
-    </script>
   </body>
 </html>

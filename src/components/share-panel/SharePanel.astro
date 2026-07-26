@@ -1,0 +1,81 @@
+---
+import Button from '@/components/icon-link-button/Button.astro';
+import CheckIcon from '@/components/icons/CheckIcon.astro';
+import ClipboardCopy from '@/components/icons/ClipboardCopy.astro';
+import QRCode from 'qrcode';
+import './SharePanel.css';
+
+interface Props {
+  shareUrl: string;
+}
+
+const { shareUrl } = Astro.props as Props;
+
+const qrCode = await QRCode.toString(shareUrl, {
+  type: 'svg',
+  width: 200,
+  margin: 0,
+  color: {
+    dark: '#333',
+    light: '#fff',
+  },
+});
+---
+
+<div class="share-content">
+  <div class="share-qr-code">
+    <Fragment set:html={qrCode} />
+  </div>
+  <div class="share-url">
+    <pre>{shareUrl}</pre>
+    <Button class="share-url-copy" data-copy-url={shareUrl}>
+      <span slot="icon" class="share-copy-icons">
+        <span data-icon="copy">
+          <ClipboardCopy />
+        </span>
+        <span data-icon="success" hidden>
+          <CheckIcon />
+        </span>
+      </span>
+      Copy URL
+    </Button>
+  </div>
+</div>
+<script>
+  document.querySelectorAll('.share-url-copy').forEach((button) => {
+    if (!(button instanceof HTMLButtonElement)) return;
+
+    const copyIcon = button.querySelector('[data-icon="copy"]');
+    const successIcon = button.querySelector('[data-icon="success"]');
+    if (!(copyIcon instanceof HTMLElement) || !(successIcon instanceof HTMLElement)) {
+      return;
+    }
+
+    let resetTimer = 0;
+
+    const showCopyIcon = () => {
+      copyIcon.hidden = false;
+      successIcon.hidden = true;
+    };
+
+    const showSuccessIcon = () => {
+      copyIcon.hidden = true;
+      successIcon.hidden = false;
+    };
+
+    button.addEventListener('click', async () => {
+      const url = button.dataset.copyUrl;
+      if (!url) return;
+
+      window.clearTimeout(resetTimer);
+
+      try {
+        await navigator.clipboard.writeText(url);
+        showSuccessIcon();
+        resetTimer = window.setTimeout(showCopyIcon, 1500);
+      } catch {
+        showCopyIcon();
+      }
+    });
+  });
+</script>

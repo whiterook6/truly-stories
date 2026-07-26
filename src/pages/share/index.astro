@@ -1,0 +1,28 @@
+---
+import Head from '@/components/head/Head.astro';
+import PageActions from '@/components/page-actions/PageActions.astro';
+import SharePanel from '@/components/share-panel/SharePanel.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '@/consts';
+import '@/styles/global.css';
+import '@/layouts/story/Story.css';
+import '../index.css';
+
+const title = `Share — ${SITE_TITLE}`;
+const shareUrl = new URL('/', Astro.site).href;
+---
+
+<html lang="en">
+  <Head title={title} description={SITE_DESCRIPTION} />
+  <body>
+    <main>
+      <article>
+        <header>
+          <h1 class="story-title">{SITE_TITLE}</h1>
+          <h2 class="story-subtitle">Share This Site</h2>
+        </header>
+        <SharePanel shareUrl={shareUrl} />
+        <PageActions showHomeButton={true} />
+      </article>
+    </main>
+  </body>
+</html>
