@@ -27,7 +27,7 @@ const shareUrl = new URL(story.href, Astro.site).href;
       <article>
         <header>
           <h1 class="story-title">{story.title}</h1>
-          <h2 class="story-subtitle">Share This Story</h2>
+          <h2 class="story-subtitle">Share</h2>
         </header>
         <SharePanel shareUrl={shareUrl} />
         <PageActions backHref={story.href} />

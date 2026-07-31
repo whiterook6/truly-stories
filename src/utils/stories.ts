@@ -10,7 +10,6 @@ export interface Story {
   tagLine?: string;
   wordCount: number;
   readingTime: string;
-  downloadUrl?: string;
 }
 
 export interface StoryFrontmatter {
@@ -18,7 +17,6 @@ export interface StoryFrontmatter {
   publishDate: string | Date;
   author?: string;
   tags?: string[];
-  downloadUrl?: string;
 }
 
 const storyModules = import.meta.glob<{ frontmatter: StoryFrontmatter }>(
@@ -69,7 +67,6 @@ export function getStories(sort: 'asc' | 'desc' = 'desc'): Story[] {
       tagLine: frontmatter.tags ? frontmatter.tags.join(', ').toLowerCase() : undefined,
       wordCount,
       readingTime: formatReadingTime(wordCount),
-      downloadUrl: frontmatter.downloadUrl,
     };
   });
 
