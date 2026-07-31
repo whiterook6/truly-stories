@@ -11,7 +11,7 @@ nav.story-nav {
   align-items: center;
   gap: .5rem;
   min-width: 0;
-  font-family: var(--font-story-title);
+  font-family: var(--font-header);
   font-size: .9375rem;
   line-height: 1.4;
   color: var(--color-text);
