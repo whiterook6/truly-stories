@@ -4,11 +4,12 @@ import ArrowRightIcon from '@/components/icons/ArrowRightIcon.astro';
 import PageActions from '@/components/page-actions/PageActions.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '@/consts';
 import { formatDate } from '@/utils/date';
-import { getStories } from '@/utils/stories';
+import { getAllStoriesDownloadHref, getStories } from '@/utils/stories';
 import '@/styles/global.css';
 import './index.css';
 
 const stories = getStories('desc');
+const downloadHref = getAllStoriesDownloadHref();
 ---
 
 <html lang="en">
@@ -41,7 +42,12 @@ const stories = getStories('desc');
           ))
         }
       </ul>
-      <PageActions shareHref="/share/" shareLabel="Share" />
+      <PageActions
+        downloadHref={downloadHref}
+        downloadLabel="Download"
+        shareHref="/share/"
+        shareLabel="Share"
+      />
     </main>
   </body>
 </html>

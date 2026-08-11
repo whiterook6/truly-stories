@@ -1,5 +1,6 @@
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
+import { ALL_STORIES_EPUB_SLUG } from '@/consts';
 import { getPublishDateTime, toDateString } from './date';
 
 export interface Story {
@@ -86,6 +87,17 @@ export function getStoryDownloadHref(slug: string | undefined): string | undefin
 
   const href = `/downloads/${slug}.epub`;
   const filePath = join(process.cwd(), 'public', 'downloads', `${slug}.epub`);
+  return existsSync(filePath) ? href : undefined;
+}
+
+export function getAllStoriesDownloadHref(): string | undefined {
+  const href = `/downloads/${ALL_STORIES_EPUB_SLUG}.epub`;
+  const filePath = join(
+    process.cwd(),
+    'public',
+    'downloads',
+    `${ALL_STORIES_EPUB_SLUG}.epub`,
+  );
   return existsSync(filePath) ? href : undefined;
 }
 
