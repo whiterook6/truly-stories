@@ -22,9 +22,7 @@ But that’s the point. See, the future arrived unevenly. You have an always-on 
 
 My family lives in Santa Clara, a five hour ride from Havana. There’s only one internet cafe, but there isn’t enough bandwidth to go around so it’s only open on Weekly Package days. This week is my turn.
 
-But my brother Federico isn’t waiting for me at the airport—typical—so I have no choice but to wait for the bus.
-
-I'm very late.
+But my brother Federico isn’t waiting for me at the airport—typical—so I have no choice but to wait for the bus. By the time I arrive, I'm very late.
 
 Immediately I’m swarmed by eager children yelling my name. I open my backpack before I can get mauled. Someone snatches my USB drive and plugs it into a desktop where a half dozen more drives wait to copy this week’s delivery for distribution: news articles, TV episodes, music, films, classifieds, software updates, open source projects, advertisements for Cuban businesses, and social media archives.
 
@@ -38,7 +36,7 @@ When I finally find Federico, hours later, he isn’t alone.
 
 I do not sneak things back and forth. Yordan and I bump fists, and I get a good look at the tattoos on his knuckles. Something about his demeanour gives me the creeps: this man is a couple bad days from killing someone.
 
-“Federico says you’re heading back to the States in a few days. Can you deliver a gift to my sister? She lives in Tampa.”
+“Federico says you’re heading back to the States in a few days. Can you deliver a gift to my girlfriend? She lives in Tampa.”
 
 This is how it starts. I love my country but the US embargo turns good people desperate.
 
@@ -85,6 +83,8 @@ A chill washes over me: I’m not chatting with a human.
 I’m chatting with an AI.
 
 One that fits on a USB drive.
+
+\---
 
 “Someone asked me to smuggle you into the States. Why?”
 
