@@ -3,7 +3,8 @@ import matter from "gray-matter";
 import { marked } from "marked";
 import { mkdir, readdir, readFile, unlink, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { formatDate, toDateString } from "../src/utils/date.ts";
+import { ALL_STORIES_EPUB_SLUG, SITE_TITLE } from "../src/consts.ts";
+import { formatDate, getPublishDateTime, toDateString } from "../src/utils/date.ts";
 
 type Story = {
   slug: string;
@@ -82,6 +83,22 @@ const storyHeaderHtml = (story: Story): string => {
 `;
 };
 
+const assertNoReservedSlug = (stories: Story[]) => {
+  const collision = stories.find((story) => story.slug === ALL_STORIES_EPUB_SLUG);
+  if (collision) {
+    throw new Error(
+      `Story slug "${ALL_STORIES_EPUB_SLUG}" is reserved for the whole-site anthology EPUB. Rename the story file.`,
+    );
+  }
+};
+
+const sortStoriesByPublishDateAsc = (stories: Story[]): Story[] =>
+  [...stories].sort(
+    (a, b) =>
+      getPublishDateTime(a.frontmatter.publishDate) -
+      getPublishDateTime(b.frontmatter.publishDate),
+  );
+
 const generateEPub = async (story: Story) => {
   const book = new EPub(
     {
@@ -104,17 +121,51 @@ const generateEPub = async (story: Story) => {
   return book.genEpub();
 };
 
+const generateAnthologyEPub = async (stories: Story[]) => {
+  const newest = stories[stories.length - 1];
+  const book = new EPub(
+    {
+      title: SITE_TITLE,
+      author: "Tim Graboski",
+      date: toDateString(newest.frontmatter.publishDate),
+      lang: "en",
+      css: epubStyles,
+      prependChapterTitles: false,
+      numberChaptersInTOC: false,
+      tocTitle: SITE_TITLE,
+    },
+    stories.map((story) => ({
+      title: story.frontmatter.title,
+      content: `${storyHeaderHtml(story)}${story.html}`,
+    })),
+  );
+  return book.genEpub();
+};
+
 const run = async () => {
   const downloadsDirectory = path.join(import.meta.dirname, "../public/downloads");
   await clearDirectory(downloadsDirectory);
 
   const storiesDirectory = path.join(import.meta.dirname, "../src/pages/stories");
-  const stories = await fetchStories(storiesDirectory);
+  const stories = sortStoriesByPublishDateAsc(await fetchStories(storiesDirectory));
+  assertNoReservedSlug(stories);
+
   await Promise.all(stories.map(async (story) => {
     const epubFile = await generateEPub(story);
     await writeFile(path.join(downloadsDirectory, `${story.slug}.epub`), epubFile);
     console.log(`Generated ${story.slug}.epub`);
   }));
+
+  if (stories.length === 0) {
+    return;
+  }
+
+  const anthologyFile = await generateAnthologyEPub(stories);
+  await writeFile(
+    path.join(downloadsDirectory, `${ALL_STORIES_EPUB_SLUG}.epub`),
+    anthologyFile,
+  );
+  console.log(`Generated ${ALL_STORIES_EPUB_SLUG}.epub`);
 };
 
 run().then(() => {
