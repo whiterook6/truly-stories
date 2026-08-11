@@ -30,3 +30,9 @@
   font-weight: 400;
   margin-block: 0 0.5rem;
 }
+
+.story code,
+.story pre {
+  font-family: var(--font-mono);
+  font-size: 0.875em;
+}

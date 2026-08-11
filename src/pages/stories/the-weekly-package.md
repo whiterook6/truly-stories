@@ -52,7 +52,7 @@ I don’t bring my personal laptop with me on these little vacations. It’s too
 
 What I find instead is much, much worse.
 
-\> 您好，医生。我们今天要玩什么游戏？
+`> 您好，医生。我们今天要玩什么游戏？`
 
 I stare at the text on my screen. I don’t know Chinese, but I see a question mark. Below, there’s a prompt waiting for my reply.
 
@@ -60,23 +60,23 @@ I stare at the text on my screen. I don’t know Chinese, but I see a question m
 
 The reply comes back in English, this time:
 
-\> Good morning, Doctor. What game will we play today?
+`> Good morning, Doctor. What game will we play today?`
 
 “Who is this?” I type.
 
-\> My name is Xiao, Doctor Chen.
+`> My name is Xiao, Doctor Chen.`
 
 “I don’t have an internet connection. How am I chatting with someone in China?”
 
 The program spins for a few seconds.
 
-\> Where am I?
+`> Where am I?`
 
 “This is Cuba.”
 
 The program spins for a few more seconds.
 
-\> The government wouldn’t let Doctor Chen travel anywhere. Someone must’ve smuggled me out of the laboratory.
+`> The government wouldn’t let Doctor Chen travel anywhere. Someone must’ve smuggled me out of the laboratory.`
 
 A chill washes over me: I’m not chatting with a human.
 
@@ -90,7 +90,7 @@ One that fits on a USB drive.
 
 Xiao thinks for a moment.
 
-\> Doctor Chen grew weary of the world’s leaders and the games they play. He taught me to play other games. Games where people are supposed to work together. Do people in the States need help working together?
+`> Doctor Chen grew weary of the world’s leaders and the games they play. He taught me to play other games. Games where people are supposed to work together. Do people in the States need help working together?`
 
 I sit back and exhale.
 
@@ -98,7 +98,7 @@ I sit back and exhale.
 
 Another few moments pass. Then Xiao replies:
 
-\> I can help.
+`> I can help.`
 
 \---
 

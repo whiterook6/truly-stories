@@ -32,6 +32,8 @@
   --font-header: "Merriweather", Georgia, "Times New Roman", Times, serif;
   --font-content: Cambria, "Hoefler Text", Utopia, "Liberation Serif", Georgia,
     "Times New Roman", Times, serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
 
   --gutter: 1rem;
   --content-max: 100%;

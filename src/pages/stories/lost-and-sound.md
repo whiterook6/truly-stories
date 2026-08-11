@@ -10,7 +10,7 @@ Every sound you’ve ever lost ends up somewhere.
 
 In a forgotten room at the back of the Museum is a forgotten man named Tom. Tom used to conduct the Victoria Symphony, but after losing his hearing and retiring, he now works part-time at the museum’s help desk.
 
-A figure fills the doorway. The Sound Warden is a strange fellow — all triangles and shadows, wearing a pointed hat, a thick wool coat, and oven mitts. Tom thinks he once knew the fellow’s name, but it’s rude to ask.
+A figure fills the doorway. The Sound Warden is a strange fellow: all triangles and shadows, wearing a pointed hat, a thick wool coat, and oven mitts. Tom thinks he once knew the fellow’s name, but it’s rude to ask.
 
 “Hello, again, sir. What have you brought me today?”
 
