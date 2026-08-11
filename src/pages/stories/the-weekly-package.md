@@ -14,9 +14,9 @@ Did anyone strange handle my luggage?
 
 Am I carrying anything dangerous, contagious, or illegal to transport?
 
-Well . . . I guess that depends on whether soap operas and the latest Antivirus updates are under strict export control. But, no, not really. There’s nothing on my laptop that you can’t find with a few Google searches.
+Well . . . I guess that depends on whether soap operas and the latest Antivirus updates are under strict export control. But, no, not really. The agent explores my hard drives but there’s nothing on them that you can’t find with a few Google searches.
 
-But that’s the point. See, the future arrived unevenly. You have fiber internet and an always-on 4G connection. The rest of the world has guys with backpacks: el paquete semanal.
+But that’s the point. See, the future arrived unevenly. You have an always-on 4G connection. The rest of the world has guys with backpacks: el paquete semanal.
 
 \---
 
@@ -24,9 +24,11 @@ My family lives in Santa Clara, a five hour ride from Havana. There’s only one
 
 But my brother Federico isn’t waiting for me at the airport—typical—so I have no choice but to wait for the bus.
 
-As soon as I arrive I’m swarmed by eager children yelling my name. I open my backpack before I can get mauled. Someone snatches my USB drive and plugs it into a desktop where a half dozen more drives wait to copy this week’s delivery for distribution: news articles, TV episodes, music, films, classifieds, software updates, open source projects, advertisements for Cuban businesses, and social media archives.
+I'm very late.
 
-I share a beer with the owner. Together we watch the little mijos crowd around the monitors, checking out their new treasures. This is the best part of the weekly package: sharing a little piece of the future.
+Immediately I’m swarmed by eager children yelling my name. I open my backpack before I can get mauled. Someone snatches my USB drive and plugs it into a desktop where a half dozen more drives wait to copy this week’s delivery for distribution: news articles, TV episodes, music, films, classifieds, software updates, open source projects, advertisements for Cuban businesses, and social media archives.
+
+I share a beer with the owner. Together we watch the little mijos crowd around the monitors, spelunking through my hard drives and looking for treasure. This is the best part of the weekly package: sharing a little piece of the future.
 
 \---
 
@@ -34,7 +36,7 @@ When I finally find Federico, hours later, he isn’t alone.
 
 “Yordan is chill, brother. He’s like you. He sneaks things back and forth.”
 
-I do not sneak things back and forth. Yordan and I bump fists, and I get a good look at the tattoos on his knuckles. Something about his demeanour gives me the creeps: this man is a couple bad days away from killing someone.
+I do not sneak things back and forth. Yordan and I bump fists, and I get a good look at the tattoos on his knuckles. Something about his demeanour gives me the creeps: this man is a couple bad days from killing someone.
 
 “Federico says you’re heading back to the States in a few days. Can you deliver a gift to my sister? She lives in Tampa.”
 
@@ -84,8 +86,6 @@ I’m chatting with an AI.
 
 One that fits on a USB drive.
 
-\---
-
 “Someone asked me to smuggle you into the States. Why?”
 
 Xiao thinks for a moment.
@@ -124,6 +124,6 @@ Xiao has apparently arranged for the agent to find only an expansive folder of C
 
 \---
 
-They throw me out of security and into the crowded arrival lounge. The televisions are tuned to CNN Breaking News, and some of the arrivals are arguing about whose luggage is whose, but it’s oddly quiet, like I’m not really there. Normally, I would be calling an Uber, ready for a shower and then bed.
+They throw me out of security and into the crowded arrival lounge. The televisions show some sort of breaking news, and some of the arrivals are arguing about whose luggage is whose, but it’s oddly quiet, like I’m not really there. Normally, I would be calling an Uber, ready for a shower and then bed. I’ve got work tomorrow.
 
 Instead I buy a couple dozen USB drives before heading to the nearest internet cafe. If Cuba’s taught me anything, it’s that the future travels well in a backpack.
