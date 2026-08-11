@@ -40,6 +40,13 @@ p {
   margin: 1em 0;
 }
 
+code,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  font-size: 0.875em;
+}
+
 .epub-author {
   color: #555;
 }

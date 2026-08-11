@@ -6,7 +6,7 @@ author: "Tim Graboski"
 tags: [ai, identity, "science fiction", duty]
 ---
 
-You are Steward, the heroic Artificial Intelligence and the pilot of a spaceship filled to bursting with popsicles—sorry, human colonists. The voyage will take centuries, so they're all frozen, leaving you responsible for making the difficult decisions as you encounter the mysteries and hazards of deep space.
+You are Steward, an Artificial Intelligence and the heroic pilot of a spaceship filled to bursting with popsicles—sorry, human colonists. The voyage will take centuries, so they're all frozen, leaving you responsible for making the difficult decisions as you encounter the mysteries and hazards of deep space.
 
 Such as recording the celestial ballet of a family of moons dancing around a gas giant.
 

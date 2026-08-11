@@ -50,23 +50,23 @@ He sat opposite her. “I’m serious,” he said. “Turn around while you can.
 
 Phillip nodded. “But the Knights got to him first, didn’t they?”
 
-She didn’t answer, instead staring at the sword she held on her lap. Firelight glinted off its scars.
+She didn’t answer, staring instead at the sword she held on her lap. Firelight glinted off its scars.
 
-Phillip considered sabotaging her motorcycle. He even imagined killing her in her sleep with his sword. But he was too cowardly—and too honorable—to do either.
+Phillip considered sabotaging her motorcycle. He considered stealing her sword. He even considered killing her in her sleep. But he was too cowardly—and too honorable—to do either.
 
 \---
 
-They were woken by the growl of motorcycles echoing through the mountains. Ashes fell from a dark orange sky. Cherry took off without a word. After a few minutes of hesitation, Phillip followed her.
+They were woken by the growl of motorcycles echoing through the mountains. Cherry took off without a word. After a few minutes of hesitation, Phillip followed her.
 
-The air warmed as they climbed. Charcoal trees lined the road. Corner after corner stacked one atop another. They passed cairn after cairn, stone monuments crowned with the helmets of fallen riders. Still she refused to slow.
+The air warmed as they climbed. Ashes fell from a dark orange sky. Charcoal trees lined the road. Corner after corner stacked one atop another, most decorated with stone monuments crowned with the helmets of fallen riders. Still she refused to slow.
 
 The pursuers grew louder and louder, until the mountain itself seemed to rev beneath them.
 
 \---
 
-The summit smelled of sulphur and charcoal. Cleared of trees, it was instead peppered with boulders and scorched debris. The Dragonslayer was already there, staring down into the crater with her sword in her hands. Phillip drove his bike right up and screeched to a stop between her and the pit.
+The summit smelled of sulphur and charcoal. Cleared of trees, it was instead peppered with boulders and scorched debris. The Dragonslayer was already there, staring down into the crater with her sword in her hands. Phillip drove his bike right up and skidded to a stop between her and the pit.
 
-Behind him, partially buried into the rock was a twisted shard of pure steel that sounded like a dozen engines redlining.
+Behind him, partially buried into the rock, was a twisted shard of pure steel that sounded like a dozen engines redlining.
 
 “Out of the way, kid,” Cherry yelled over the noise. “This isn’t your fight.”
 
