@@ -1,3 +1,5 @@
+Sitemap: https://fiction.graboski.ca/sitemap-index.xml
+
 User-agent: Googlebot
 Allow: /
 
