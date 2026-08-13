@@ -6,7 +6,7 @@ author: "Tim Graboski"
 tags: [cyberpunk, sneakernet, ai, smuggling]
 ---
 
-It’s late 2016, and I’m in the airport, ready to fly Southwest Airlines from Tampa Bay to Havana. I fly every month, so the agents know me by name, and if you think being friends with TSA is a good thing then brother you aren't Cuban enough. They randomly select me for additional screening:
+It’s late 2016, and I’m in line to fly from Tampa Bay to Havana. I fly every month, so the agents know me by name, and if you think being friends with TSA is a good thing then brother you aren't Cuban enough. They randomly select me for additional screening:
 
 Whom am I visiting?
 
@@ -14,19 +14,19 @@ Did anyone strange handle my luggage?
 
 Am I carrying anything dangerous, contagious, or illegal to transport?
 
-Well . . . I guess that depends on whether soap operas and the latest Antivirus updates are under strict export control. But, no, not really. The agent explores my hard drives but there’s nothing on them that you can’t find with a few Google searches.
+Well . . . No, not really. I’m not a smuggler. There’s nothing on my laptop that you can’t find with a few Google searches.
 
-But that’s the point. See, the future arrived unevenly. You have an always-on 4G connection. The rest of the world has guys with backpacks: el paquete semanal.
+But that’s the point. See, the future arrived unevenly. You have fiber internet and an always-on 4G connection. The rest of the world has guys with backpacks: El Paquete Semanal.
 
 \---
 
 My family lives in Santa Clara, a five hour ride from Havana. There’s only one internet cafe, but there isn’t enough bandwidth to go around so it’s only open on Weekly Package days. This week is my turn.
 
-But my brother Federico isn’t waiting for me at the airport—typical—so I have no choice but to wait for the bus. By the time I arrive, I'm very late.
+But my brother Federico isn’t waiting for me at the airport—typical—so I have no choice but to wait for the bus. By the time I arrive, I’m very, very late.
 
-Immediately I’m swarmed by eager children yelling my name. I open my backpack before I can get mauled. Someone snatches my USB drive and plugs it into a desktop where a half dozen more drives wait to copy this week’s delivery for distribution: news articles, TV episodes, music, films, classifieds, software updates, open source projects, advertisements for Cuban businesses, and social media archives.
+Immediately I’m swarmed by eager children yelling my name. I open my backpack before I can get mauled. Someone snatches my USB drive and plugs it into a desktop where a half dozen more wait to copy this week’s delivery for distribution: news articles, TV episodes, music, films, classifieds, software updates, open source projects, advertisements for Cuban businesses, and social media archives.
 
-I share a beer with the owner. Together we watch the little mijos crowd around the monitors, spelunking through my hard drives and looking for treasure. This is the best part of the weekly package: sharing a little piece of the future.
+I share a beer with the owner. Together we watch the little mijos crowd around the monitors, checking out their new treasures. This is the best part of the weekly package: sharing a little piece of the future.
 
 \---
 
@@ -34,13 +34,13 @@ When I finally find Federico, hours later, he isn’t alone.
 
 “Yordan is chill, brother. He’s like you. He sneaks things back and forth.”
 
-I do not sneak things back and forth. Yordan and I bump fists, and I get a good look at the tattoos on his knuckles. Something about his demeanour gives me the creeps: this man is a couple bad days from killing someone.
+I do not sneak things back and forth. Yordan and I bump fists, and I get a good look at the tattoos on his knuckles. Something about him gives me the creeps: this man is a couple bad days away from killing someone.
 
 “Federico says you’re heading back to the States in a few days. Can you deliver a gift to my girlfriend? She lives in Tampa.”
 
 This is how it starts. I love my country but the US embargo turns good people desperate.
 
-“No way, man. I’ve gotta get through TSA.”
+“No way, man. I’ve gotta get through Customs.”
 
 Yordan laughs and slaps my shoulder. “Relax\! It’s not cocaine. Just some family photos.”
 
@@ -58,7 +58,7 @@ I stare at the text on my screen. I don’t know Chinese, but I see a question m
 
 “Hello?” I type.
 
-The reply comes back in English, this time:
+The reply comes back in English:
 
 `> Good morning, Doctor. What game will we play today?`
 
@@ -70,9 +70,9 @@ The reply comes back in English, this time:
 
 The program spins for a few seconds.
 
-`> Where am I?`
+`> Where am I? Where is Doctor Chen?`
 
-“This is Cuba.”
+“I’m in Cuba. I don’t know a doctor named Chen.”
 
 The program spins for a few more seconds.
 
@@ -94,7 +94,7 @@ Xiao thinks for a moment.
 
 I sit back and exhale.
 
-“I can’t smuggle you into the States,” I type. “It’s too dangerous. If they find you I’ll be on a boat to Guantanamo Bay for sure.”
+“I can’t smuggle you into the States,” I type. “It’s too dangerous. If they find you I’ll be on the next boat to Guantanamo Bay.”
 
 Another few moments pass. Then Xiao replies:
 
@@ -112,18 +112,24 @@ Am I disillusioned with economic coercion, private software, and modern day impe
 
 Well . . .
 
-The customs agent digs through my backpack, finds the USB drive, and inserts it into his computer. God, wouldn’t it be awful if the airport’s infrastructure suddenly went down at that exact moment? Ha. Ah ha ha.
+The agent digs through my backpack, finds the USB drive, and inserts it into his computer. God, wouldn’t it be awful if the airport’s infrastructure suddenly went down at that exact moment? Ha. Ha ha.
 
-No, what Agent Smith finds instead is much, much worse:
+No, what the agent finds instead is much, much worse:
 
 “What the hell?\!” he exclaims.
 
 I struggle to keep a straight face. “I told you it was private\!”
 
-Xiao has apparently arranged for the agent to find only an expansive folder of Cuban dick pics.
+Xiao has apparently arranged for the agent to find a folder of Cuban dick pics.
 
 \---
 
-They throw me out of security and into the crowded arrival lounge. The televisions show some sort of breaking news, and some of the arrivals are arguing about whose luggage is whose, but it’s oddly quiet, like I’m not really there. Normally, I would be calling an Uber, ready for a shower and then bed. I’ve got work tomorrow.
+They throw me out of security and into the crowded arrival lounge. I hail an Uber, intent on collapsing into bed as soon as possible.
 
-Instead I buy a couple dozen USB drives before heading to the nearest internet cafe. If Cuba’s taught me anything, it’s that the future travels well in a backpack.
+But the TVs are all set to breaking news.
+
+And a group of arrivals are arguing about whose luggage is whose.
+
+And my newly restored internet connection is filling my social media feeds with political attack ads.
+
+So I redirect my Uber to an internet cafe that’s still open this late. If the Weekly Package has taught me anything, it’s that a single person can hold the whole future in his backpack.

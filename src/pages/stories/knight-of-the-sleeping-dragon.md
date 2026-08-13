@@ -6,13 +6,13 @@ author: "Tim Graboski"
 tags: [mythical, "modern fantasy", "mountain road", motorcycles]
 ---
 
-Deep in the Great Smoky Mountains, near the border between Tennessee and North Carolina, there was a stretch of US Route 129 known to the locals as the Tail of the Dragon. It was the deadliest road in America: not only because it packed over three hundred blind corners into eleven miles, but because it belonged to a dangerous biker gang called the Knights of Appalachia.
+Deep in the Great Smoky Mountains, near the border between Tennessee and North Carolina, there once was a stretch of US Route 129 known to the locals as the Tail of the Dragon. It was the deadliest road in America: not only because it packed over three hundred blind corners into eleven miles, but because it belonged to a dangerous biker gang called the Knights of Appalachia.
 
 \---
 
-One day, at the last gas station and the last turn off before the Tail of the Dragon, a young lad named Phillip was leaning against his bike, refilling its tank, when he heard the distinctive rumbling of a late-80’s Indian Scout. He watched an old lady with cherry-colored hair drive up the road, blow past the signs and the barricade, and disappear around the first bend.
+One day, at the gas station at the last turn off before the Tail of the Dragon, a young lad named Phillip was leaning against his bike, refilling its tank, when he heard the distinctive rumbling of a late-80’s Indian Scout. He watched an old lady with cherry-colored hair drive up the road, blow past the signs and the barricade, and disappear around the first bend.
 
-Tourists ignored the warnings now and then. Most turned around after a few miles. The rest never returned at all. The mountainside was littered with wrecks and corpses. This wouldn't be the first sad old nobody on a battered motorcycle trying to resurrect a little of her youth. 
+Tourists ignored the warnings now and then. Most turned around after a few miles. The rest never returned at all. The mountainside was littered with wrecks and corpses. This wouldn’t be the first sad old nobody on a battered motorcycle trying to resurrect a little of her youth.
 
 But as Phillip peeled out of the gas station to follow, he knew this rider was different. She wore the leather of a true biker. She drove like a lunatic. And she had strapped to her back a greatsword: the kind used to slay a dragon.
 
@@ -34,25 +34,25 @@ When he caught his breath, Cherry was gone.
 
 \---
 
-Night had fallen when Phillip found her. She had made camp by the ruins of an old rest stop that had been pulled apart as the ground shifted over the years. Firelight danced across the broken cinder block walls.
+Night had fallen when Phillip found her. She had made camp by the ruins of an old rest stop that had been pulled apart as the ground shifted over the years. He considered sneaking up on her in the darkness, but Harleys aren’t known for stealth or discretion. She’d probably heard him from miles away.
 
-He considered sneaking up on her in the darkness, but Harleys aren’t known for stealth or discretion. She’d probably heard him from miles away.
-
-He parked beside her bike and walked up. Eventually she looked at him.
+He parked beside her bike, clipped his sword to his belt, and walked up. Firelight danced across the broken cinder block walls. Eventually she looked at him.
 
 “You really shouldn’t be here,” he tried again.
 
 She laughed. “Kid, there’s nowhere I belong.”
 
-He sat opposite her. “I’m serious,” he said. “Turn around while you can. This is no normal road. No one’s ever made it back alive.”
+He sat opposite her.
+
+“I’m serious,” he said. “Turn around while you can. This is no normal road. No one’s ever made it back alive.”
 
 “I know,” Cherry said, looking back into the fire. “Before you were even born, my husband died trying to reach the summit. He would’ve made it, too. He was the best rider I’ve ever known.”
 
 Phillip nodded. “But the Knights got to him first, didn’t they?”
 
-She didn’t answer, staring instead at the sword she held on her lap. Firelight glinted off its scars.
+She didn’t answer, instead staring at the sword she held on her lap. Firelight glinted off its scars. Compared to hers, his looked like a butter knife.
 
-Phillip considered sabotaging her motorcycle. He considered stealing her sword. He even considered killing her in her sleep. But he was too cowardly—and too honorable—to do either.
+Phillip considered sabotaging her motorcycle. He considered stealing her sword. He even imagined killing her in her sleep. But he was too cowardly—and too honorable—to do either.
 
 \---
 
@@ -64,39 +64,43 @@ The pursuers grew louder and louder, until the mountain itself seemed to rev ben
 
 \---
 
-The summit smelled of sulphur and charcoal. Cleared of trees, it was instead peppered with boulders and scorched debris. The Dragonslayer was already there, staring down into the crater with her sword in her hands. Phillip drove his bike right up and skidded to a stop between her and the pit.
+The sulphur hit as the last of the charcoal trunks fell away. The summit was all bare stone and blackened wreckage, the Dragonslayer already at the crater’s edge. Phillip skidded to a stop between her and the pit.
 
-Behind him, partially buried into the rock, was a twisted shard of pure steel that sounded like a dozen engines redlining.
+Behind him, buried in the rock, a twisted shard of steel rang like a dozen engines redlining.
 
 “Out of the way, kid,” Cherry yelled over the noise. “This isn’t your fight.”
 
-Phillip drew his sword and pointed it directly at the Dragonslayer. “You can’t kill it,” he yelled back. “I won’t let you. You’ll only bring fire and ruin onto the countryside.”
+Phillip drew his sword and pointed it at her.
 
-He could actually see her focus shift onto him—as if she were only just now seeing him. “You’re one of them, aren’t you? A Knight?”
+“You can’t kill it,” he yelled back. “You’ll only bring fire and ruin onto the countryside.”
+
+He could actually see her focus shift onto him—as if she were only just now seeing him.
+
+“You’re one of them, aren’t you? A Knight?”
 
 Phillip nodded. “The last one.”
 
 “There’s no one else coming? Ha\!”
 
-The Dragonslayer was an intimidating figure. Covered in scars and leather, with muscles that belied her age, while Phillip just was a scrawny punk kid. She wasn’t scared of him. In her hands she wielded a sword meant to slay a dragon.
+The Dragonslayer was scars and leather and muscle that belied her age. Phillip just was a scrawny punk kid. She wasn’t scared of him. In her hands she wielded a sword meant to slay a dragon.
 
 But Phillip had a sword meant to slay a man.
 
-Cherry howled and swung her sword. Phillip lunged to the side and knocked the heavy blade from her grip. She grabbed him, pulled him close, too close to use his sword. They grappled, faces inches apart, feet skidding through the gravel. Anger and fear and vengeance and regret in their eyes. His sword pinned between them, too fast to track. The Knight and the Dragonslayer, growling and snarling like beasts.
+Cherry howled and swung. Phillip dodged—barely—and her greatsword carved gravel instead. The steel heart pulsed; heat washed off the crater. She pulled him close, too close for either blade. They skidded through ash, growling at each other, anger and fear and vengeance and regret in their eyes. His sword shifted between them, biting both.
 
-She reared back and head butted him.
+Her headbutt cracked his vision white.
 
-He staggered, his vision blurred.
+He staggered, losing his balance.
 
-She grabbed his blade and sliced him across his gut.
+She wrenched his blade free and opened his gut.
 
-He fell to the ground and curled up, clutching his wound.
+Phillip went down screaming, curled around his wound. The heart flared gold.
 
-Cherry retrieved her greatsword and skidded down the crater, buffeted by the wall of noise flowing out of the rock.
+Cherry retrieved her greatsword and skidded into the crater, buffeted by the roar pouring from the rock.
 
-“Please, don’t\!” Phillip gasped, reaching desperately.
+“Please, don’t\!” Phillip gasped, reaching.
 
-The Dragonslayer looked back at him, then snarled and sliced clean through the dragon’s heart.
+The Dragonslayer looked back at him with pity, then sliced clean through the dragon’s heart.
 
 \---
 
