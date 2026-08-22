@@ -86,15 +86,17 @@ The Dragonslayer was scars and leather and muscle that belied her age. Phillip j
 
 But Phillip had a sword meant to slay a man.
 
-Cherry howled and swung. Phillip dodged—barely—and her greatsword carved gravel instead. The steel heart pulsed; heat washed off the crater. She pulled him close, too close for either blade. They skidded through ash, growling at each other, anger and fear and vengeance and regret in their eyes. His sword shifted between them, biting both.
+Cherry howled and swung. Phillip dodged inside her arc, barely, and knocked her grip loose. Her sword carved gravel and clattered down the crater wall. Cherry grabbed his shirt and pulled him close, pinning his sword between them. He lifted his arm just in time to block her fist sailing at his face. They grunted and scrapped, their feet scrambling across the ground, while the dragon’s heart pulsed with excitement.
 
-Her headbutt cracked his vision white.
+If Phillip didn’t end this soon—if he didn’t kill her now—they were going to wake it anyway\!
 
-He staggered, losing his balance.
+He shoved her away, and lifted his sword—
 
-She wrenched his blade free and opened his gut.
+But his grip was empty—where did—
 
-Phillip went down screaming, curled around his wound. The heart flared gold.
+Cherry sliced his sword across his gut.
+
+Phillip collapsed with a scream, curling around his wound.
 
 Cherry retrieved her greatsword and skidded into the crater, buffeted by the roar pouring from the rock.
 
