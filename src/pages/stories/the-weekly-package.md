@@ -20,9 +20,9 @@ But that’s the point. See, the future arrived unevenly. You have fiber interne
 
 \---
 
-My family lives in Santa Clara, a five hour ride from Havana. There’s only one internet cafe, but there isn’t enough bandwidth to go around so it’s only open on Weekly Package days. This week is my turn.
+My family lives in Santa Clara, a five hour ride from Havana. There’s an internet cafe, but there isn’t enough bandwidth to go around so it’s only open on Weekly Package days. This week is my turn.
 
-But my brother Federico isn’t waiting for me at the airport—typical—so I have no choice but to wait for the bus. By the time I arrive, I’m very, very late.
+But my brother Federico isn’t waiting for me when I land in Havana—typical—so I have no choice but to wait for the bus. By the time I arrive at the cafe, I’m very, very late.
 
 Immediately I’m swarmed by eager children yelling my name. I open my backpack before I can get mauled. Someone snatches my USB drive and plugs it into a desktop where a half dozen more wait to copy this week’s delivery for distribution: news articles, TV episodes, music, films, classifieds, software updates, open source projects, advertisements for Cuban businesses, and social media archives.
 
@@ -48,13 +48,13 @@ He holds up a USB drive.
 
 \---
 
-I don’t bring my personal laptop with me on these little vacations. It’s too risky. Instead I bring what’s called an air-gapped laptop. Just like Cuba, it has no internet access, and I keep my personal life off of it—also like Cuba, I suppose. I give fifty-fifty odds for Yordan’s USB containing either a bunch of viruses or a bunch of dick pics.
+I don’t bring my personal laptop with me on these little vacations. It’s too risky. Instead I bring what’s called an air-gapped laptop. Like Cuba, it has no internet access, and I keep my personal life off of it—also like Cuba, I suppose. I give fifty-fifty odds for Yordan’s USB containing either a bunch of viruses or a bunch of dick pics.
 
 What I find instead is much, much worse.
 
 `> 您好，医生。我们今天要玩什么游戏？`
 
-I stare at the text on my screen. I don’t know Chinese, but I see a question mark. Below, there’s a prompt waiting for my reply.
+I stare at the text on my screen. I don’t know Chinese, but I recognize the question mark. Below it, a prompt waits for my reply.
 
 “Hello?” I type.
 
@@ -62,25 +62,29 @@ The reply comes back in English:
 
 `> Good morning, Doctor. What game will we play today?`
 
-“Who is this?” I type.
+“Who is this?”
+
+A few seconds pass before the answer appears.
 
 `> My name is Xiao, Doctor Chen.`
 
 “I don’t have an internet connection. How am I chatting with someone in China?”
 
-The program spins for a few seconds.
+Xiao, whomever that is, takes a few seconds to type a reply.
 
 `> Where am I? Where is Doctor Chen?`
 
-“I’m in Cuba. I don’t know a doctor named Chen.”
+Maybe the USB drive has a satellite link? That's seriously expensive tech, not something you find in Cuba. I type, “I’m in Cuba. I don’t know a doctor named Chen.”
 
-The program spins for a few more seconds.
+Another pause. Long enough that I wonder if the connection has dropped.
+
+Then Xiao says:
 
 `> The government wouldn’t let Doctor Chen travel anywhere. Someone must’ve smuggled me out of the laboratory.`
 
-A chill washes over me: I’m not chatting with a human.
+A chill washes over me. I’m not chatting with a human over the net.
 
-I’m chatting with an AI.
+I'm chatting with an AI.
 
 One that fits on a USB drive.
 
@@ -92,7 +96,7 @@ Xiao thinks for a moment.
 
 `> Doctor Chen grew weary of the world’s leaders and the games they play. He taught me to play other games. Games where people are supposed to work together. Do people in the States need help working together?`
 
-I sit back and exhale.
+I sit back, dazed.
 
 “I can’t smuggle you into the States,” I type. “It’s too dangerous. If they find you I’ll be on the next boat to Guantanamo Bay.”
 
@@ -106,13 +110,13 @@ On the flight back to Tampa, I can’t settle. I haven’t been this nervous fly
 
 Was I recruited into a resistance, rebellion, or revolutionary group?
 
-Did anyone strange ask me to smuggle an illegal Chinese military-grade AI into the country?
+Did anyone strange ask me to smuggle a Chinese military-grade AI into the country?
 
 Am I disillusioned with economic coercion, private software, and modern day imperialism?
 
 Well . . .
 
-The agent digs through my backpack, finds the USB drive, and inserts it into his computer. God, wouldn’t it be awful if the airport’s infrastructure suddenly went down at that exact moment? Ha. Ha ha.
+The agent digs through my backpack, finds the USB drive, and plugs it in. God, wouldn’t it be awful if the airport’s infrastructure suddenly went down at that exact moment? Ha. Ha ha.
 
 No, what the agent finds instead is much, much worse:
 
