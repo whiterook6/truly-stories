@@ -1,0 +1,51 @@
+---
+import Head from '@/components/head/Head.astro';
+import ArrowRightIcon from '@/components/icons/ArrowRightIcon.astro';
+import PageActions from '@/components/page-actions/PageActions.astro';
+import Text from '@/components/text/Text.astro';
+import { SITE_TITLE } from '@/consts';
+import { formatDate } from '@/utils/date';
+import { getStories } from '@/utils/stories';
+import '@/styles/global.css';
+import './index.css';
+
+const recentStories = getStories('desc').slice(0, 4);
+const title = `Not found — ${SITE_TITLE}`;
+const description = 'That link doesn’t work.';
+---
+
+<html lang="en">
+  <Head title={title} description={description} type="website" />
+  <body>
+    <main>
+      <h1 class="page-title">Not found</h1>
+      <Text>That link doesn’t work. Try one of these recent stories:</Text>
+      <ul class="story-list">
+        {
+          recentStories.map((story) => (
+            <li class="story-list-item">
+              <a class="story-list-link" href={story.href}>
+                <span>{story.title}</span>
+                <ArrowRightIcon />
+              </a>
+              <div class="story-list-details">
+                <time class="story-list-date" datetime={story.publishDate}>
+                  {formatDate(story.publishDate)}
+                </time>
+                <span class="story-list-sep" aria-hidden="true">·</span>
+                <span class="story-list-stats">
+                  {story.wordCount.toLocaleString()} words
+                </span>
+                <span class="story-list-sep" aria-hidden="true">·</span>
+                <span class="story-list-stats">{story.readingTime}</span>
+              </div>
+              {story.tagLine && <p class="story-list-tags">{story.tagLine}</p>}
+            </li>
+          ))
+        }
+      </ul>
+      <Text>Or, return to the homepage:</Text>
+      <PageActions showHomeButton={true} />
+    </main>
+  </body>
+</html>
