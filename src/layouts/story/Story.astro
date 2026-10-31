@@ -2,6 +2,7 @@
 import Head from '@/components/head/Head.astro';
 import PageActions from "@/components/page-actions/PageActions.astro";
 import StoryNavigation from "@/components/story-navigation/StoryNavigation.astro";
+import "@/components/text/Text.css";
 import "@/styles/global.css";
 import { formatDate, toDateString } from "@/utils/date";
 import { getStoryDownloadHref, getStoryNeighbors, pathToSlug, getStoryShareHref, type StoryFrontmatter } from "@/utils/stories";
@@ -37,7 +38,7 @@ const shareHref = getStoryShareHref(slug);
   </Head>
   <body>
     <main>
-      <article class="story">
+      <article class="story text">
         <header>
           <h1 class="story-title">{title}</h1>
           {subtitle && (
