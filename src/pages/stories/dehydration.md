@@ -6,27 +6,25 @@ author: "Tim Graboski"
 tags: [halloween, horror, sauna, silence]
 ---
 
-The community pool was as loud as ever, but when Ryan stepped inside the dry sauna and shut the door behind him, the splashes and shrieks and lifeguard whistles faded with a thump.
+The community pool was as loud as ever, but when Ryan stepped inside the dry sauna and shut the door behind him, the splashing, shrieking, and lifeguard whistling faded with a thump.
 
-Inside, it was dark, hot, and silent. New bathers often learned the hard way: don’t make noise. It was the only real rule in the dry sauna—well, that and don’t pour water on the hot rocks.
+Inside, it was dark, hot, and silent.
 
-Inside, as far from the other bathers on a bench by itself, was the corpse.
+Inside, far from the other bathers on a bench by itself, was the corpse.
 
 The dead man’s skin was tight and cracked, almost translucent in the dim sauna lighting. All of the muscles around his face had contracted, leaving the poor man with a toothy grimace and wide eyes.
 
 No one knew how long this dried-out husk had been there.
 
-The only other free spots were next to the corpse. Ryan sat as far from it as he could, nodded at the regulars, and took a gulp from his water bottle.
+The only free spots were next to the corpse. Ryan sat as far from it as he could, nodding at the regulars, but said nothing. The corpse had learned the hard way: don’t make noise. It was the only real rule in the dry sauna—well, that and don’t pour water on the hot rocks.
 
 Today, everyone was quiet. Today would be a safe day.
 
 Then she entered.
 
-The woman was beautiful, especially in a room of old men with wrinkled, spotted skin. Ryan felt warmer just looking at her. She and a man who Ryan assumed was her husband were yammering away, breaking the silence. Neither of them was familiar with the rule. A braver man would’ve warned them—but even a hushed whisper was enough.
+The woman was beautiful, especially in a room filled with old men covered in wrinkled, spotted skin. Ryan felt warmer just looking at her. She and a man who Ryan assumed was her husband were yammering away, breaking the silence. Neither of them was familiar with the rule. The only other free spots were next to the corpse—and next to Ryan. They sat right beside him and, mercifully, fell silent.
 
-The only other free spots were next to the corpse—and next to Ryan. They sat right beside Ryan and eventually fell silent.
-
-In the absence of speaking, other sounds filled the sauna. Wooden benches creaked as people shifted. The hot rocks clicked and scraped against each other. When Ryan drank from his water bottle, he could hear the water gulping down his throat. The heat itself seemed to mute everything—a physical pressure holding back sound itself.
+In the absence of speaking, other sounds filled the sauna. Wooden benches creaked. The hot rocks clicked and scraped. When Ryan drank from his water bottle, that water slid down his throat with a gulp. The heat itself seemed to mute everything; a physical pressure holding back sound itself.
 
 Ryan felt a knee press against his hip.
 
@@ -42,25 +40,29 @@ The woman shifted her weight until she had completely enveloped her husband. Her
 
 Finally, the man gave up and slumped against Ryan.
 
-The woman leaned back and took a deep, bubbling breath. She gulped, and wiped her chin on her arm, panting for breath with a smile.
+The woman leaned back and took a deep, bubbling breath. She gulped, and wiped her chin on her arm, panting for breath with a satisfied smile.
 
-The man was dead.
+Was Ryan supposed to say something? If he were braver, he would’ve warned them, but even a hushed whisper was enough. They were getting lucky, but if they didn’t—
+
+Wait.
+
+The husband was dead.
 
 Dried up.
 
-Ryan gulped. If he was quiet, maybe he could slip past her and find a different seat.
+Ryan looked away and gulped. If he was quiet, maybe he could slip past the woman and find a different seat.
 
 But he’d forgotten about the water bottle he’d placed at his feet—
 
 Thump.
 
-The woman whirled around and lunged at Ryan, slamming him back against the wall and filling his world. Her face was pale and blue, her smile filled with yellowed teeth. Strands of rope and bits of plastic tangled in her hair. Her breath reeked of salt and chlorine. And where she touched him, where she pressed down atop him, where she shoved her weight through her knees and palms into him, she was so, so cold.
+The woman whirled around and lunged at Ryan, slamming him back against the wall and filling his world. Her face was pale and blue. Strands of rope and bits of plastic tangled in her hair. Her breath reeked of salt and chlorine. And where she touched him, where she pressed down atop him, where she shoved her weight through her knees and palms into him, she was so, so cold.
 
-Yet she wasn’t making eye contact, wasn’t really looking at him—instead inspecting his face, his hair, even the wall behind him. Hunting him. She twitched at every gulp and sigh, shifted when a bench creaked, and even blinked when the heater clicked.
+Yet she wasn’t making eye contact, wasn’t really looking at him, instead inspecting his face, his hair, even the wall behind him. Hunting him. She twitched at every gulp and sigh, shifted when a bench creaked, and even blinked when the heater clicked.
 
-Ryan had always wondered why bathers chose silence in the dry sauna. Conversation was a human necessity. But invisibility was baked into the rules. Just like prehistoric times when people huddled together beneath the darkness: no one made noise, and no one got taken.
+Ryan had always wondered why bathers chose silence in the dry sauna, who’d discovered the rule. Conversation was a human necessity. But invisibility was baked into the rules. Just like prehistoric times when people huddled together beneath the darkness: no one made noise, and no one got taken.
 
-She crawled closer, pressing her whole body atop his. Her fingers smeared across his face, pulling at his skin. If he could keep quiet, maybe she would move on and he could escape. But her nails were so sharp!
+She crawled closer, pressing her whole body atop his. Her fingers smeared across his face, pulling at his skin. If he could keep quiet, maybe she would move on and he could escape.
 
 There was a rush of air, a shift in the weight of the room.
 
@@ -68,15 +70,17 @@ Someone was leaving.
 
 Ryan opened his mouth to yell for help—
 
-The woman lunged forward and clamped a hand over his mouth and nose. She finally made eye contact with him. Hers were the scared eyes of a little girl lost at sea. He didn’t notice the claws at his neck until seconds later, when the threat was real. She smiled, and shook her head.
+The woman lunged forward and clamped a hand over his mouth and nose. Finally made eye contact with him. Hers were the eyes of a scared little girl lost at sea. He didn’t notice the claws at his neck until seconds later, when the threat was real. She smiled, and shook her head.
 
 Silence, the only real rule, was hers all along.
 
-Ryan tried to twist loose, but she gripped his face, leaned close, and kissed him. He struggled, tried to knock her free, peel her face from his, but he was already exhausted, out of breath and drowning in the humidity, and her weight was incredible, and now that she had muted him no one else would notice until he was a husk, drained of his water—
+Ryan tried to squirm loose, but she gripped his face, leaned close, and pressed her mouth to his. Suddenly he was out of breath, aches and soreness spreading through his body. He struggled, tried to knock her free, to peel her face from his, but her weight was incredible, and now that she had muted him no one else would notice until he was a husk, drained of his water—
+
+Wait!
 
 His water!
 
-He groped blindly for his water bottle. Where was it? His lungs burned, and the edge of his vision started tingling. Had he knocked it somewhere?
+He groped blindly for his water bottle. Had he knocked it somewhere? His lungs burned, and the edge of his vision sparkled.
 
 His toes felt something smooth and metallic.
 
@@ -86,11 +90,9 @@ As the world went black, Ryan grabbed the bottle, twisted open the lid, and toss
 
 A nearly full bottle of water poured over the heating elements.
 
-The woman howled. Her body clanked and rang, sending rivets bouncing around the sauna. She convulsed and twisted, her limbs contorting and her face pulling into a hideous snarl.
+The woman howled. Her body clanked and rang, sending rivets bouncing around the sauna. She convulsed and twisted, her limbs contorting and her face pulling into a hideous snarl. She howled, filling the room with steam and smoke.
 
-She howled, filling the room with steam and smoke.
-
-Instant commotion; the scrambling bathers pulled Ryan along, freeing him. Outside, a mother and her small children were knocked out of the way as a dozen sweaty old men burst out of the sauna all at once, yelling for help. Lifeguard whistles pierced the air, then the fire alarm sounded.
+Instant commotion; the scrambling bathers pulled Ryan along, freeing him. A dozen sweaty old men burst from the sauna, knocking a mother and her children out of the way. Lifeguard whistles pierced the air, then the fire alarm sounded.
 
 As Ryan hurried for the change rooms, he glanced back at the smoke-filled sauna.
 
