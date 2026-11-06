@@ -26,7 +26,7 @@ The woman was beautiful, especially in a room filled with wrinkled, mottled old 
 
 At last, silence.
 
-In the absence of speaking, other sounds filled the sauna. Wooden benches creaked. The hot rocks clicked and scraped. When Ryan drank from his water bottle, that water slid down his throat with a gulp. But the heat muted everything; a physical pressure holding back sound itself.
+In the absence of speaking, other sounds filled the sauna. Wooden benches creaked. The hot rocks clicked and scraped. When Ryan drank from his water bottle, that water slid down his throat with a gulp. But the heat muted everything: a physical pressure holding back sound itself.
 
 A knee pressed against Ryan’s hip.
 

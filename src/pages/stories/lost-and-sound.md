@@ -50,9 +50,9 @@ Turns out, no one wants a hand-me-down sound.
 
 As he turns a corner he sees a familiar figure stalking the halls. Tom follows for a few minutes. The Sound Warden glides through the crowd, with his hands and their oven mitts trailing behind him.
 
-And in his wake, the guests are turning grey and muted, struck by some sort of malaise . . . He’s dredging their sounds\!
+And in his wake, the guests are turning grey and muted, struck by some sort of malaise . . . He’s dredging their sounds!
 
-“Hey\!” Tom calls out.
+“Hey!” Tom calls out.
 
 For a moment the two stare at each other.
 
@@ -66,13 +66,13 @@ Tom’s hearing aids scream a wall of white noise directly into his skull: buzze
 
 Tom falls back, yells for help, but no sound comes out, and when he wheezes for breath no air comes back in. A hammer drives into his chest. He’s going to drown in this sludge of forgotten sounds, and his dying protests will wind up in someone else’s Lost and Sound box—
 
-Of course\!
+Of course!
 
 As the Sound Warden looms over him, Tom grabs the Lost and Sound. Everything in the box will be lost—but if this is his last stand, then he’ll be damned if he dies listening to this modern crap. He points it at the Sound Warden and throws open the lid.
 
 Cymbals and trumpets and banging drums and raving applause erupt from the box, harmonious and clear and beautiful. Classic.
 
-The Sound Warden’s coat billows, swells out and out and out, jamming him stuck in the doorway until he detonates with a bang\!
+The Sound Warden’s coat billows, swells out and out and out, jamming him stuck in the doorway until he detonates with a bang!
 
 Tom collapses on his back, panting. Shredded wool floats around him. The sounds of everyday life flood back in. His heart is hammering. An onlooker rushes in, calls for help. A frantic mother and an impotent security guard and a lonely divorcee help him to a bench and then down to the first aid room to recover.
 

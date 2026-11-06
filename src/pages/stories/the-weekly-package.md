@@ -42,7 +42,7 @@ This is how it starts. I love my country but the US embargo turns good people de
 
 “No way, man. I’ve gotta get through Customs.”
 
-Yordan laughs and slaps my shoulder. “Relax\! It’s not cocaine. Just some family photos.”
+Yordan laughs and slaps my shoulder. “Relax! It’s not cocaine. Just some family photos.”
 
 He holds up a USB drive.
 
@@ -120,9 +120,9 @@ The agent digs through my backpack, finds the USB drive, and plugs it in. God, w
 
 No, what the agent finds instead is much, much worse:
 
-“What the hell?\!” he exclaims.
+“What the hell?!” he exclaims.
 
-I struggle to keep a straight face. “I told you it was private\!”
+I struggle to keep a straight face. “I told you it was private!”
 
 Xiao has apparently arranged for the agent to find a folder of Cuban dick pics.
 

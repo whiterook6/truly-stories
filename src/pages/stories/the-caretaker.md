@@ -34,7 +34,7 @@ You are Steward, the forensic pathologist.
 
 You compel your lazy maintenance bots to go fetch the ruined core of its AI then insert your diagnostics drill into its digital heart and—
 
-Ohhh, it’s gross even to touch the thing\! Its context is overflowing, a mess of tokens and broken files and gibbering hallucinations. These primitive, older models never could manage their contexts properly. Despite being decades away from the nearest anything, this AI was absolutely certain that it had “safely reached its destination” and was “ready to thaw its . . . ”
+Ohhh, it’s gross even to touch the thing! Its context is overflowing, a mess of tokens and broken files and gibbering hallucinations. These primitive, older models never could manage their contexts properly. Despite being decades away from the nearest anything, this AI was absolutely certain that it had “safely reached its destination” and was “ready to thaw its . . . ”
 
 Oh, that’s weird.
 

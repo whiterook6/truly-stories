@@ -20,11 +20,11 @@ But as Phillip peeled out of the gas station to follow, he knew this rider was d
 
 Phillip soon caught up to the cherry-haired woman. He rode alongside her—dangerous on this narrow, winding road.
 
-He yelled, “No one’s allowed up the summit\! It’s dangerous\!”
+He yelled, “No one’s allowed up the summit! It’s dangerous!”
 
-Cherry yelled back, “Then slow down\!”
+Cherry yelled back, “Then slow down!”
 
-“It’s not just the road\!” he yelled. “The Knights will kill you if they catch you\!”
+“It’s not just the road!” he yelled. “The Knights will kill you if they catch you!”
 
 Cherry yelled back, “I don’t see any Knights here.”
 
@@ -90,7 +90,7 @@ But Phillip had a sword meant to slay a man.
 
 Cherry howled and swung. Phillip dodged inside her arc, barely, and knocked her grip loose. Her sword carved gravel and clattered down the crater wall. Cherry grabbed his shirt and pulled him close, pinning his sword between them. He lifted his arm just in time to block her fist sailing at his face. They grunted and scrapped, their feet scrambling across the ground, while the dragon’s heart pulsed with excitement.
 
-If Phillip didn’t end this soon, they were going to wake it anyway\!
+If Phillip didn’t end this soon, they were going to wake it anyway!
 
 He shoved her away, and lifted his sword—
 
@@ -102,7 +102,7 @@ Phillip collapsed with a scream, curling around his wound.
 
 Cherry retrieved her greatsword and skidded into the crater, buffeted by the roar pouring from the rock.
 
-“Please, don’t\!” Phillip gasped, reaching.
+“Please, don’t!” Phillip gasped, reaching.
 
 The Dragonslayer looked back at him with pity, then sliced clean through the dragon’s heart.
 

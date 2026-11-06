@@ -38,11 +38,11 @@ The whelps started barking somewhere up ahead. Was it too much to hope for some 
 
 Then he heard a voice:
 
-“Get away\! Stupid—*Ah\!*”
+“Get away! Stupid—*Ah!*”
 
 At the center of a small clearing was a tall pine tree, and near the top a young boy dangled, his arms around an alarmingly bent branch and his shoes barely reaching another. A dozen or so whelps scrambled around the base of the tree, barking incessantly.
 
-“What are you doing up there?\!” Boz hollered over the noise. The boy was way, way up that tree.
+“What are you doing up there?!” Boz hollered over the noise. The boy was way, way up that tree.
 
 “I—I wanted to climb this tree, but then these mongrels distracted me and I slipped. I’m actually a very good climber.”
 
@@ -58,19 +58,19 @@ The branch under the boy’s feet cracked. He slipped, yelped, and barely caught
 
 “Lad—” Boz started.
 
-The boy snapped, “I’m not coming down unless you share\!”
+The boy snapped, “I’m not coming down unless you share!”
 
 Another crack. The branch broke between the boy’s clenched fists, leaving him dangling from one hand.
 
-“I’m not stuck\!” the boy yelled, panic in his voice. “I chose to climb up here\!”
+“I’m not stuck!” the boy yelled, panic in his voice. “I chose to climb up here!”
 
 Boz kicked at the whelps circling the tree, trying to shoo them away.
 
-“Damnit, boy\! Stop playing and climb down\!”
+“Damnit, boy! Stop playing and climb down!”
 
-The boy cried, “I can\!”
+The boy cried, “I can!”
 
-Boz dropped his backpack on the ground and reached for the lowest branch. “Hold still, I’m coming for you\!”
+Boz dropped his backpack on the ground and reached for the lowest branch. “Hold still, I’m coming for you!”
 
 He heard a yelp, several branches snapping, and a dull thud a few feet behind him.
 
@@ -88,7 +88,7 @@ And started bawling.
 
 \---
 
-“Easy. Slow down—don’t eat it too quickly\!”
+“Easy. Slow down—don’t eat it too quickly!”
 
 Even with a sprained wrist, the boy devoured Boz’s food in minutes.
 
@@ -112,7 +112,7 @@ Liam told him.
 
 “Never heard of that world.”
 
-Liam scoffed. “It’s not the planet. Duh. It’s the town\!” He tentatively pointed back where Boz came from. “Uh . . . It’s not that far. I tried going home, but I kept getting turned around.” Another gulp of water, then Liam added, “But I’m not lost\!”
+Liam scoffed. “It’s not the planet. Duh. It’s the town!” He tentatively pointed back where Boz came from. “Uh . . . It’s not that far. I tried going home, but I kept getting turned around.” Another gulp of water, then Liam added, “But I’m not lost!”
 
 Oh, lords. Of all the vindictive, petty, passive-aggressive trail bullshit—
 

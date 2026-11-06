@@ -84,11 +84,11 @@ The same twelve digits as his code.
 
 He lurched forward and shoved her out of the way.
 
-“It’s too late\!” she shouted. “You can’t stop it\!”
+“It’s too late!” she shouted. “You can’t stop it!”
 
 Orlov started punching controls at random. “How do I shut it down? Are you transmitting?”
 
-“It’s a radio telescope, you fool. It’s a receiver\!”
+“It’s a radio telescope, you fool. It’s a receiver!”
 
 “Receiving what? Are you working for the Americans?”
 
