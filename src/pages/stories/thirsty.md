@@ -1,6 +1,6 @@
 ---
 layout: "@/layouts/story/Story.astro"
-title: "Dehydration"
+title: "Thirsty"
 publishDate: 2026-10-31
 author: "Tim Graboski"
 tags: [halloween, horror, sauna, silence]
