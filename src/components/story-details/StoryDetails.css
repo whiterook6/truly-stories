@@ -1,0 +1,22 @@
+.story-list-tags,
+.story-list-details {
+  font-family: var(--font-header);
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+}
+
+.story-list-tags {
+  margin: 0;
+}
+
+.story-list-details {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 0.5rem;
+  row-gap: 0.25rem;
+}
+
+.story-list-sep {
+  color: var(--color-text-faint);
+}

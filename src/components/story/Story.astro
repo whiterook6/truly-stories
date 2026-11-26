@@ -1,0 +1,45 @@
+---
+import StoryDetails from "@/components/story-details/StoryDetails.astro";
+import StoryTitle from "@/components/story-title/StoryTitle.astro";
+import "./Story.css";
+
+interface Props {
+  featured?: boolean;
+  titleId?: string;
+  title: string;
+  href: string;
+  date: string;
+  wordCount: number;
+  readingTime: string;
+  tags?: string;
+}
+
+const { featured, titleId, title, href, date, wordCount, readingTime, tags } =
+  Astro.props as Props;
+---
+
+{
+  featured ? (
+    <>
+      <h3 class="story-featured-title" id={titleId}>
+        <StoryTitle title={title} href={href} />
+      </h3>
+      <StoryDetails
+        date={date}
+        wordCount={wordCount}
+        readingTime={readingTime}
+        tags={tags}
+      />
+    </>
+  ) : (
+    <li class="story-list-item">
+      <StoryTitle title={title} href={href} />
+      <StoryDetails
+        date={date}
+        wordCount={wordCount}
+        readingTime={readingTime}
+        tags={tags}
+      />
+    </li>
+  )
+}

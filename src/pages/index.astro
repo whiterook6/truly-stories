@@ -1,9 +1,10 @@
 ---
 import Head from '@/components/head/Head.astro';
-import ArrowRightIcon from '@/components/icons/ArrowRightIcon.astro';
 import PageActions from '@/components/page-actions/PageActions.astro';
+import Story from '@/components/story/Story.astro';
+import StoryList from '@/components/story-list/StoryList.astro';
+import StoryListHeader from '@/components/story-list-header/StoryListHeader.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '@/consts';
-import { formatDate } from '@/utils/date';
 import { getAllStoriesDownloadHref, getStories } from '@/utils/stories';
 import '@/styles/global.css';
 import './index.css';
@@ -20,58 +21,38 @@ const downloadHref = getAllStoriesDownloadHref();
       <h2 class="page-subtitle">by Tim Graboski</h2>
       {
         latest && (
-          <section class="story-featured" aria-labelledby="latest-story-title">
-            <p class="group-header">Latest</p>
-            <h3 class="story-featured-title" id="latest-story-title">
-              <a class="story-list-link" href={latest.href}>
-                <span>{latest.title}</span>
-                <ArrowRightIcon />
-              </a>
-            </h3>
-            <div class="story-list-details">
-              <time class="story-list-date" datetime={latest.publishDate}>
-                {formatDate(latest.publishDate)}
-              </time>
-              <span class="story-list-sep" aria-hidden="true">·</span>
-              <span class="story-list-stats">
-                {latest.wordCount.toLocaleString()} words
-              </span>
-              <span class="story-list-sep" aria-hidden="true">·</span>
-              <span class="story-list-stats">{latest.readingTime}</span>
-            </div>
-            {latest.tagLine && (
-              <p class="story-list-tags">{latest.tagLine}</p>
-            )}
-          </section>
+          <StoryList featured labelledBy="latest-story-title">
+            <StoryListHeader slot="header">Latest</StoryListHeader>
+            <Story
+              featured
+              titleId="latest-story-title"
+              title={latest.title}
+              href={latest.href}
+              date={latest.publishDate}
+              wordCount={latest.wordCount}
+              readingTime={latest.readingTime}
+              tags={latest.tagLine}
+            />
+          </StoryList>
         )
       }
       {
         olderStories.length > 0 && (
-          <section class="story-older" aria-labelledby="older-stories-label">
-            <p class="group-header" id="older-stories-label">Older</p>
-            <ul class="story-list">
-              {olderStories.map((story) => (
-                <li class="story-list-item">
-                  <a class="story-list-link" href={story.href}>
-                    <span>{story.title}</span>
-                    <ArrowRightIcon />
-                  </a>
-                  <div class="story-list-details">
-                    <time class="story-list-date" datetime={story.publishDate}>
-                      {formatDate(story.publishDate)}
-                    </time>
-                    <span class="story-list-sep" aria-hidden="true">·</span>
-                    <span class="story-list-stats">
-                      {story.wordCount.toLocaleString()} words
-                    </span>
-                    <span class="story-list-sep" aria-hidden="true">·</span>
-                    <span class="story-list-stats">{story.readingTime}</span>
-                  </div>
-                  {story.tagLine && <p class="story-list-tags">{story.tagLine}</p>}
-                </li>
-              ))}
-            </ul>
-          </section>
+          <StoryList labelledBy="older-stories-label">
+            <StoryListHeader slot="header" id="older-stories-label">
+              Older
+            </StoryListHeader>
+            {olderStories.map((story) => (
+              <Story
+                title={story.title}
+                href={story.href}
+                date={story.publishDate}
+                wordCount={story.wordCount}
+                readingTime={story.readingTime}
+                tags={story.tagLine}
+              />
+            ))}
+          </StoryList>
         )
       }
       <PageActions

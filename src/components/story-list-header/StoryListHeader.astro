@@ -1,0 +1,11 @@
+---
+import "./StoryListHeader.css";
+
+interface Props {
+  id?: string;
+}
+
+const { id } = Astro.props as Props;
+---
+
+<p class="group-header" id={id}><slot /></p>

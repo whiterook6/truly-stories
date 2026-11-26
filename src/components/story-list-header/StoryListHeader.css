@@ -1,0 +1,9 @@
+.group-header {
+  font-family: var(--font-header);
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+  margin: 0;
+  letter-spacing: 0.02em;
+  border-bottom: 1px solid var(--color-border);
+  margin-bottom: 0.5rem;
+}

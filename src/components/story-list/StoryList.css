@@ -1,0 +1,26 @@
+.story-featured {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding-block: 1.25rem 1.5rem;
+}
+
+.story-featured .story-list-details,
+.story-featured .story-list-tags {
+  font-size: 0.9375rem;
+}
+
+.story-older {
+  margin-block-start: 0.5rem;
+  padding-block-start: 1rem;
+}
+
+.story-older .story-list-item:first-child {
+  padding-block-start: 0.5rem;
+}
+
+.story-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
