@@ -8,7 +8,7 @@ import { getAllStoriesDownloadHref, getStories } from '@/utils/stories';
 import '@/styles/global.css';
 import './index.css';
 
-const stories = getStories('desc');
+const [latest, ...olderStories] = getStories('desc');
 const downloadHref = getAllStoriesDownloadHref();
 ---
 
@@ -18,33 +18,65 @@ const downloadHref = getAllStoriesDownloadHref();
     <main>
       <h1 class="page-title">{SITE_TITLE}</h1>
       <h2 class="page-subtitle">by Tim Graboski</h2>
-      <ul class="story-list">
-        {
-          stories.map((story) => (
-            <li class="story-list-item">
-              <a class="story-list-link" href={story.href}>
-                <span>{story.title}</span>
+      {
+        latest && (
+          <section class="story-featured" aria-labelledby="latest-story-title">
+            <p class="group-header">Latest</p>
+            <h3 class="story-featured-title" id="latest-story-title">
+              <a class="story-list-link" href={latest.href}>
+                <span>{latest.title}</span>
                 <ArrowRightIcon />
               </a>
-              <div class="story-list-details">
-                <time class="story-list-date" datetime={story.publishDate}>
-                  {formatDate(story.publishDate)}
-                </time>
-                <span class="story-list-sep" aria-hidden="true">·</span>
-                <span class="story-list-stats">
-                  {story.wordCount.toLocaleString()} words
-                </span>
-                <span class="story-list-sep" aria-hidden="true">·</span>
-                <span class="story-list-stats">{story.readingTime}</span>
-              </div>
-              {story.tagLine && <p class="story-list-tags">{story.tagLine}</p>}
-            </li>
-          ))
-        }
-      </ul>
+            </h3>
+            <div class="story-list-details">
+              <time class="story-list-date" datetime={latest.publishDate}>
+                {formatDate(latest.publishDate)}
+              </time>
+              <span class="story-list-sep" aria-hidden="true">·</span>
+              <span class="story-list-stats">
+                {latest.wordCount.toLocaleString()} words
+              </span>
+              <span class="story-list-sep" aria-hidden="true">·</span>
+              <span class="story-list-stats">{latest.readingTime}</span>
+            </div>
+            {latest.tagLine && (
+              <p class="story-list-tags">{latest.tagLine}</p>
+            )}
+          </section>
+        )
+      }
+      {
+        olderStories.length > 0 && (
+          <section class="story-older" aria-labelledby="older-stories-label">
+            <p class="group-header" id="older-stories-label">Older</p>
+            <ul class="story-list">
+              {olderStories.map((story) => (
+                <li class="story-list-item">
+                  <a class="story-list-link" href={story.href}>
+                    <span>{story.title}</span>
+                    <ArrowRightIcon />
+                  </a>
+                  <div class="story-list-details">
+                    <time class="story-list-date" datetime={story.publishDate}>
+                      {formatDate(story.publishDate)}
+                    </time>
+                    <span class="story-list-sep" aria-hidden="true">·</span>
+                    <span class="story-list-stats">
+                      {story.wordCount.toLocaleString()} words
+                    </span>
+                    <span class="story-list-sep" aria-hidden="true">·</span>
+                    <span class="story-list-stats">{story.readingTime}</span>
+                  </div>
+                  {story.tagLine && <p class="story-list-tags">{story.tagLine}</p>}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
       <PageActions
         downloadHref={downloadHref}
-        downloadLabel="Download"
+        downloadLabel="Download All"
         shareHref="/share/"
         shareLabel="Share"
       />
