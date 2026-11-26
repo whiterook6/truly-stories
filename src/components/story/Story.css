@@ -1,0 +1,21 @@
+.story-featured-title {
+  font-weight: 400;
+  margin: 0;
+}
+
+.story-featured-title .story-list-link {
+  font-size: clamp(1.375rem, 3vw, 1.625rem);
+  color: var(--color-text-strong);
+}
+
+.story-featured-title .story-list-link svg {
+  width: 1.375rem;
+  height: 1.375rem;
+}
+
+.story-list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding-block: 1rem;
+}

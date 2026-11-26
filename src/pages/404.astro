@@ -1,12 +1,12 @@
 ---
 import Head from '@/components/head/Head.astro';
-import ArrowRightIcon from '@/components/icons/ArrowRightIcon.astro';
 import PageActions from '@/components/page-actions/PageActions.astro';
+import Story from '@/components/story/Story.astro';
 import Text from '@/components/text/Text.astro';
 import { SITE_TITLE } from '@/consts';
-import { formatDate } from '@/utils/date';
 import { getStories } from '@/utils/stories';
 import '@/styles/global.css';
+import '@/components/story-list/StoryList.css';
 import './index.css';
 
 const recentStories = getStories('desc').slice(0, 4);
@@ -23,24 +23,14 @@ const description = 'That link doesn’t work.';
       <ul class="story-list">
         {
           recentStories.map((story) => (
-            <li class="story-list-item">
-              <a class="story-list-link" href={story.href}>
-                <span>{story.title}</span>
-                <ArrowRightIcon />
-              </a>
-              <div class="story-list-details">
-                <time class="story-list-date" datetime={story.publishDate}>
-                  {formatDate(story.publishDate)}
-                </time>
-                <span class="story-list-sep" aria-hidden="true">·</span>
-                <span class="story-list-stats">
-                  {story.wordCount.toLocaleString()} words
-                </span>
-                <span class="story-list-sep" aria-hidden="true">·</span>
-                <span class="story-list-stats">{story.readingTime}</span>
-              </div>
-              {story.tagLine && <p class="story-list-tags">{story.tagLine}</p>}
-            </li>
+            <Story
+              title={story.title}
+              href={story.href}
+              date={story.publishDate}
+              wordCount={story.wordCount}
+              readingTime={story.readingTime}
+              tags={story.tagLine}
+            />
           ))
         }
       </ul>

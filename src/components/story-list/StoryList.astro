@@ -1,0 +1,26 @@
+---
+import "./StoryList.css";
+
+interface Props {
+  featured?: boolean;
+  labelledBy: string;
+}
+
+const { featured, labelledBy } = Astro.props as Props;
+---
+
+<section
+  class={featured ? "story-featured" : "story-older"}
+  aria-labelledby={labelledBy}
+>
+  <slot name="header" />
+  {
+    featured ? (
+      <slot />
+    ) : (
+      <ul class="story-list">
+        <slot />
+      </ul>
+    )
+  }
+</section>

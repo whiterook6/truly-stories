@@ -1,0 +1,24 @@
+---
+import { formatDate } from "@/utils/date";
+import "./StoryDetails.css";
+
+interface Props {
+  date: string;
+  wordCount: number;
+  readingTime: string;
+  tags?: string;
+}
+
+const { date, wordCount, readingTime, tags } = Astro.props as Props;
+---
+
+<div class="story-list-details">
+  <time class="story-list-date" datetime={date}>
+    {formatDate(date)}
+  </time>
+  <span class="story-list-sep" aria-hidden="true">·</span>
+  <span class="story-list-stats">{wordCount.toLocaleString()} words</span>
+  <span class="story-list-sep" aria-hidden="true">·</span>
+  <span class="story-list-stats">{readingTime}</span>
+</div>
+{tags && <p class="story-list-tags">{tags}</p>}
